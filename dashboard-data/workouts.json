@@ -10,32 +10,6 @@
     "status": "completed",
     "exercises": [
       {
-        "name": "Calf Raise",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 4920.7,
-        "total_sets": 2,
-        "total_reps": 24,
-        "max_weight_lbs": 205.0,
-        "notes": "2 sets on the leg press machine; 2 sets on the leg press machine"
-      },
-      {
         "name": "Front Raise",
         "canonical_id": null,
         "status": "completed",
@@ -107,166 +81,6 @@
         "total_reps": 29,
         "max_weight_lbs": 40.0,
         "notes": "3 sets; 3 sets"
-      },
-      {
-        "name": "Leg Curl",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          },
-          {
-            "set_number": 4,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 6560.9,
-        "total_sets": 4,
-        "total_reps": 32,
-        "max_weight_lbs": 205.0,
-        "notes": "4 sets; 4 sets"
-      },
-      {
-        "name": "Leg Extension",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          },
-          {
-            "set_number": 4,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 6560.9,
-        "total_sets": 4,
-        "total_reps": 32,
-        "max_weight_lbs": 205.0,
-        "notes": "4 sets; 4 sets"
-      },
-      {
-        "name": "Leg Press",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 10,
-            "weight_lbs": null,
-            "weight_kg": 86.0,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 9,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          },
-          {
-            "set_number": 4,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 7021.7,
-        "total_sets": 4,
-        "total_reps": 35,
-        "max_weight_lbs": 205.0,
-        "notes": "Warmup feeler; Warmup feeler; 3 working sets. Matching last week's PR weight"
-      },
-      {
-        "name": "Leg Raises",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 4,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 0,
-        "total_sets": 4,
-        "total_reps": 48,
-        "max_weight_lbs": 0,
-        "notes": "4 sets; 4 sets"
       },
       {
         "name": "Shoulder Press Machine",
@@ -342,6 +156,152 @@
         "notes": "3 sets; 3 sets"
       },
       {
+        "name": "Leg Press",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 10,
+            "weight_lbs": null,
+            "weight_kg": 86.0,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 9,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          },
+          {
+            "set_number": 4,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 7021.7,
+        "total_sets": 4,
+        "total_reps": 35,
+        "max_weight_lbs": 205.0,
+        "notes": "Warmup feeler; Warmup feeler; 3 working sets. Matching last week's PR weight"
+      },
+      {
+        "name": "Calf Raise",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 4920.7,
+        "total_sets": 2,
+        "total_reps": 24,
+        "max_weight_lbs": 205.0,
+        "notes": "2 sets on the leg press machine; 2 sets on the leg press machine"
+      },
+      {
+        "name": "Leg Extension",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          },
+          {
+            "set_number": 4,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 6560.9,
+        "total_sets": 4,
+        "total_reps": 32,
+        "max_weight_lbs": 205.0,
+        "notes": "4 sets; 4 sets"
+      },
+      {
+        "name": "Leg Curl",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          },
+          {
+            "set_number": 4,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 6560.9,
+        "total_sets": 4,
+        "total_reps": 32,
+        "max_weight_lbs": 205.0,
+        "notes": "4 sets; 4 sets"
+      },
+      {
         "name": "Treadmill Incline Walk",
         "canonical_id": null,
         "status": "completed",
@@ -399,6 +359,46 @@
         "total_reps": 30,
         "max_weight_lbs": 55.0,
         "notes": "Progression from 50 lbs; Progression from 50 lbs"
+      },
+      {
+        "name": "Leg Raises",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 4,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 0,
+        "total_sets": 4,
+        "total_reps": 48,
+        "max_weight_lbs": 0,
+        "notes": "4 sets; 4 sets"
       }
     ],
     "total_volume_lbs": 37279.0,
@@ -417,7 +417,7 @@
     "status": "completed",
     "exercises": [
       {
-        "name": "Cable Rope Hammer",
+        "name": "Lat Pulldown (wide)",
         "canonical_id": null,
         "status": "completed",
         "sets": [
@@ -425,48 +425,29 @@
             "set_number": 1,
             "reps": 8,
             "weight_lbs": null,
-            "weight_kg": 59.0,
+            "weight_kg": 72.0,
             "rpe": null
           },
           {
             "set_number": 2,
             "reps": 8,
             "weight_lbs": null,
-            "weight_kg": 59.0,
+            "weight_kg": 72.0,
             "rpe": null
           },
           {
             "set_number": 3,
-            "reps": 8,
+            "reps": 7,
             "weight_lbs": null,
-            "weight_kg": 59.0,
+            "weight_kg": 72.0,
             "rpe": null
           }
         ],
-        "volume_lbs": 3121.7,
+        "volume_lbs": 3650.9,
         "total_sets": 3,
-        "total_reps": 24,
-        "max_weight_lbs": 130.1,
-        "notes": "Clean form. Confirmed as primary going forward; Clean form. Confirmed as primary going forward"
-      },
-      {
-        "name": "Cable Rope Hammer (warmup)",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 45.0,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 793.7,
-        "total_sets": 1,
-        "total_reps": 8,
-        "max_weight_lbs": 99.2,
-        "notes": "Clean; Clean"
+        "total_reps": 23,
+        "max_weight_lbs": 158.7,
+        "notes": "Set 1: knee pad too low, sat behind cable. Fixed set 2 onward. Bar to upper chest cue; Set 1: knee pad too low, sat behind cable. Fixed set 2 onward. Bar to upper chest cue"
       },
       {
         "name": "Close Grip Lat Pulldown",
@@ -502,70 +483,89 @@
         "notes": ""
       },
       {
-        "name": "Concentration Curl",
+        "name": "Seated Row",
         "canonical_id": null,
         "status": "completed",
         "sets": [
           {
             "set_number": 1,
             "reps": 8,
-            "weight_lbs": 25.0,
-            "weight_kg": null,
+            "weight_lbs": null,
+            "weight_kg": 72.0,
             "rpe": null
           },
           {
             "set_number": 2,
             "reps": 8,
-            "weight_lbs": 25.0,
-            "weight_kg": null,
+            "weight_lbs": null,
+            "weight_kg": 72.0,
             "rpe": null
           },
           {
             "set_number": 3,
-            "reps": 8,
-            "weight_lbs": 25.0,
-            "weight_kg": null,
+            "reps": 7,
+            "weight_lbs": null,
+            "weight_kg": 72.0,
             "rpe": null
           }
         ],
-        "volume_lbs": 600.0,
+        "volume_lbs": 3650.9,
         "total_sets": 3,
-        "total_reps": 24,
-        "max_weight_lbs": 25.0,
-        "notes": "3 sets each arm; 3 sets each arm"
+        "total_reps": 23,
+        "max_weight_lbs": 158.7,
+        "notes": ""
       },
       {
-        "name": "DB Bicep Curl (supinated)",
+        "name": "One Arm Dumbbell Row",
         "canonical_id": null,
         "status": "completed",
         "sets": [
           {
             "set_number": 1,
-            "reps": 12,
-            "weight_lbs": 35.0,
+            "reps": 8,
+            "weight_lbs": 70.0,
             "weight_kg": null,
             "rpe": null
           },
           {
             "set_number": 2,
-            "reps": 7,
-            "weight_lbs": 35.0,
+            "reps": 8,
+            "weight_lbs": 70.0,
             "weight_kg": null,
             "rpe": null
           },
           {
             "set_number": 3,
-            "reps": 5,
-            "weight_lbs": 40.0,
+            "reps": 8,
+            "weight_lbs": 70.0,
             "weight_kg": null,
             "rpe": null
           }
         ],
-        "volume_lbs": 865.0,
+        "volume_lbs": 1680.0,
         "total_sets": 3,
         "total_reps": 24,
-        "max_weight_lbs": 40.0,
-        "notes": ""
+        "max_weight_lbs": 70.0,
+        "notes": "All 3 clean. 3\u00d78 confirmed \u2705; All 3 clean. 3\u00d78 confirmed \u2705"
+      },
+      {
+        "name": "DB Hammer (warmup)",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": 30.0,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 240.0,
+        "total_sets": 1,
+        "total_reps": 8,
+        "max_weight_lbs": 30.0,
+        "notes": "Clean form; Clean form"
       },
       {
         "name": "DB Hammer",
@@ -615,23 +615,122 @@
         "notes": "Clean. Wall support used to stop lean-back; Clean. Wall support used to stop lean-back; Clean set 3; Form broke \u2014 elbow drift at bottom. Tried twice, moved on"
       },
       {
-        "name": "DB Hammer (warmup)",
+        "name": "Cable Rope Hammer (warmup)",
         "canonical_id": null,
         "status": "completed",
         "sets": [
           {
             "set_number": 1,
             "reps": 8,
-            "weight_lbs": 30.0,
+            "weight_lbs": null,
+            "weight_kg": 45.0,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 793.7,
+        "total_sets": 1,
+        "total_reps": 8,
+        "max_weight_lbs": 99.2,
+        "notes": "Clean; Clean"
+      },
+      {
+        "name": "Cable Rope Hammer",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 59.0,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 59.0,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 59.0,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 3121.7,
+        "total_sets": 3,
+        "total_reps": 24,
+        "max_weight_lbs": 130.1,
+        "notes": "Clean form. Confirmed as primary going forward; Clean form. Confirmed as primary going forward"
+      },
+      {
+        "name": "DB Bicep Curl (supinated)",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 12,
+            "weight_lbs": 35.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 7,
+            "weight_lbs": 35.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 5,
+            "weight_lbs": 40.0,
             "weight_kg": null,
             "rpe": null
           }
         ],
-        "volume_lbs": 240.0,
-        "total_sets": 1,
-        "total_reps": 8,
-        "max_weight_lbs": 30.0,
-        "notes": "Clean form; Clean form"
+        "volume_lbs": 865.0,
+        "total_sets": 3,
+        "total_reps": 24,
+        "max_weight_lbs": 40.0,
+        "notes": ""
+      },
+      {
+        "name": "Concentration Curl",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": 25.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": 25.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 8,
+            "weight_lbs": 25.0,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 600.0,
+        "total_sets": 3,
+        "total_reps": 24,
+        "max_weight_lbs": 25.0,
+        "notes": "3 sets each arm; 3 sets each arm"
       },
       {
         "name": "Forearm Wrist Curl",
@@ -674,112 +773,6 @@
         "notes": "2 warmup + 2 working; 2 warmup + 2 working"
       },
       {
-        "name": "Lat Pulldown (wide)",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 72.0,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 72.0,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 7,
-            "weight_lbs": null,
-            "weight_kg": 72.0,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 3650.9,
-        "total_sets": 3,
-        "total_reps": 23,
-        "max_weight_lbs": 158.7,
-        "notes": "Set 1: knee pad too low, sat behind cable. Fixed set 2 onward. Bar to upper chest cue; Set 1: knee pad too low, sat behind cable. Fixed set 2 onward. Bar to upper chest cue"
-      },
-      {
-        "name": "Leg Raises",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 4,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 0,
-        "total_sets": 4,
-        "total_reps": 48,
-        "max_weight_lbs": 0,
-        "notes": "As usual; As usual"
-      },
-      {
-        "name": "One Arm Dumbbell Row",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": 70.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": 70.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 8,
-            "weight_lbs": 70.0,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 1680.0,
-        "total_sets": 3,
-        "total_reps": 24,
-        "max_weight_lbs": 70.0,
-        "notes": "All 3 clean. 3\u00d78 confirmed \u2705; All 3 clean. 3\u00d78 confirmed \u2705"
-      },
-      {
         "name": "Reverse Forearm Curl",
         "canonical_id": null,
         "status": "completed",
@@ -804,39 +797,6 @@
         "total_reps": 20,
         "max_weight_lbs": 15.0,
         "notes": "New addition \u2014 extensors. Palms down, roll to fingertips; New addition \u2014 extensors. Palms down, roll to fingertips"
-      },
-      {
-        "name": "Seated Row",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 72.0,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 72.0,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 7,
-            "weight_lbs": null,
-            "weight_kg": 72.0,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 3650.9,
-        "total_sets": 3,
-        "total_reps": 23,
-        "max_weight_lbs": 158.7,
-        "notes": ""
       },
       {
         "name": "Weighted Crunch (decline)",
@@ -877,154 +837,6 @@
         "total_reps": 30,
         "max_weight_lbs": 50.0,
         "notes": "Bumped from 45 lbs plate to 50 lbs DB held to chest; Bumped from 45 lbs plate to 50 lbs DB held to chest"
-      }
-    ],
-    "total_volume_lbs": 21293.1,
-    "total_sets": 42,
-    "total_reps": 352,
-    "exercise_count": 14
-  },
-  {
-    "id": 24,
-    "date": "2026-06-29",
-    "focus": "chest-triceps",
-    "bodyweight_kg": null,
-    "duration_min": null,
-    "rpe_session": null,
-    "notes": null,
-    "status": "completed",
-    "exercises": [
-      {
-        "name": "Decline Dumbbell Press",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 7,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 6,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 1365.0,
-        "total_sets": 3,
-        "total_reps": 21,
-        "max_weight_lbs": 65.0,
-        "notes": "Progressed from 60\u219265. Total 21 reps. Beat last week's 23 @ 60 lbs in load; Progressed from 60\u219265. Total 21 reps. Beat last week's 23 @ 60 lbs in load"
-      },
-      {
-        "name": "Dips",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 14,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 18,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 15,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 0,
-        "total_sets": 3,
-        "total_reps": 47,
-        "max_weight_lbs": 0,
-        "notes": "Bodyweight. Progressed from last week; Bodyweight. Progressed from last week"
-      },
-      {
-        "name": "Flat Dumbbell Press",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 7,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 6,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 9,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 1430.0,
-        "total_sets": 3,
-        "total_reps": 22,
-        "max_weight_lbs": 65.0,
-        "notes": "4 min rest before set 3 paid off; 4 min rest before set 3 paid off"
-      },
-      {
-        "name": "Incline Dumbbell Press",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 8,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 1560.0,
-        "total_sets": 3,
-        "total_reps": 24,
-        "max_weight_lbs": 65.0,
-        "notes": "Warmup 50\u00d712. Plan weight. Last rep hard on set 3. Beat last week 8-8-7; Warmup 50\u00d712. Plan weight. Last rep hard on set 3. Beat last week 8-8-7"
       },
       {
         "name": "Leg Raises",
@@ -1064,47 +876,122 @@
         "total_sets": 4,
         "total_reps": 48,
         "max_weight_lbs": 0,
-        "notes": "4 sets; 4 sets"
-      },
+        "notes": "As usual; As usual"
+      }
+    ],
+    "total_volume_lbs": 21293.1,
+    "total_sets": 42,
+    "total_reps": 352,
+    "exercise_count": 14
+  },
+  {
+    "id": 24,
+    "date": "2026-06-29",
+    "focus": "chest-triceps",
+    "bodyweight_kg": null,
+    "duration_min": null,
+    "rpe_session": null,
+    "notes": null,
+    "status": "completed",
+    "exercises": [
       {
-        "name": "Overhead Tricep Extension",
+        "name": "Incline Dumbbell Press",
         "canonical_id": null,
         "status": "completed",
         "sets": [
           {
             "set_number": 1,
             "reps": 8,
-            "weight_lbs": 75.0,
+            "weight_lbs": 65.0,
             "weight_kg": null,
             "rpe": null
           },
           {
             "set_number": 2,
             "reps": 8,
-            "weight_lbs": 75.0,
+            "weight_lbs": 65.0,
             "weight_kg": null,
             "rpe": null
           },
           {
             "set_number": 3,
-            "reps": 7,
-            "weight_lbs": 75.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 4,
-            "reps": 5,
-            "weight_lbs": 75.0,
+            "reps": 8,
+            "weight_lbs": 65.0,
             "weight_kg": null,
             "rpe": null
           }
         ],
-        "volume_lbs": 2100.0,
-        "total_sets": 4,
-        "total_reps": 28,
-        "max_weight_lbs": 75.0,
-        "notes": "+5 lbs from plan (70). 4 sets. Fatigue drop on set 4; +5 lbs from plan (70). 4 sets. Fatigue drop on set 4"
+        "volume_lbs": 1560.0,
+        "total_sets": 3,
+        "total_reps": 24,
+        "max_weight_lbs": 65.0,
+        "notes": "Warmup 50\u00d712. Plan weight. Last rep hard on set 3. Beat last week 8-8-7; Warmup 50\u00d712. Plan weight. Last rep hard on set 3. Beat last week 8-8-7"
+      },
+      {
+        "name": "Flat Dumbbell Press",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 7,
+            "weight_lbs": 65.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 6,
+            "weight_lbs": 65.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 9,
+            "weight_lbs": 65.0,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 1430.0,
+        "total_sets": 3,
+        "total_reps": 22,
+        "max_weight_lbs": 65.0,
+        "notes": "4 min rest before set 3 paid off; 4 min rest before set 3 paid off"
+      },
+      {
+        "name": "Decline Dumbbell Press",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": 65.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 7,
+            "weight_lbs": 65.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 6,
+            "weight_lbs": 65.0,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 1365.0,
+        "total_sets": 3,
+        "total_reps": 21,
+        "max_weight_lbs": 65.0,
+        "notes": "Progressed from 60\u219265. Total 21 reps. Beat last week's 23 @ 60 lbs in load; Progressed from 60\u219265. Total 21 reps. Beat last week's 23 @ 60 lbs in load"
       },
       {
         "name": "Pec Fly (DB)",
@@ -1187,6 +1074,79 @@
         "notes": "3 sets. Clean sweep; 3 sets. Clean sweep"
       },
       {
+        "name": "Dips",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 14,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 18,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 15,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 0,
+        "total_sets": 3,
+        "total_reps": 47,
+        "max_weight_lbs": 0,
+        "notes": "Bodyweight. Progressed from last week; Bodyweight. Progressed from last week"
+      },
+      {
+        "name": "Overhead Tricep Extension",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": 75.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": 75.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 7,
+            "weight_lbs": 75.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 4,
+            "reps": 5,
+            "weight_lbs": 75.0,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 2100.0,
+        "total_sets": 4,
+        "total_reps": 28,
+        "max_weight_lbs": 75.0,
+        "notes": "+5 lbs from plan (70). 4 sets. Fatigue drop on set 4; +5 lbs from plan (70). 4 sets. Fatigue drop on set 4"
+      },
+      {
         "name": "Weighted Crunch (decline)",
         "canonical_id": null,
         "status": "completed",
@@ -1225,6 +1185,46 @@
         "total_reps": 32,
         "max_weight_lbs": 45.0,
         "notes": "4 sets; 4 sets"
+      },
+      {
+        "name": "Leg Raises",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 4,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 0,
+        "total_sets": 4,
+        "total_reps": 48,
+        "max_weight_lbs": 0,
+        "notes": "4 sets; 4 sets"
       }
     ],
     "total_volume_lbs": 14021.9,
@@ -1242,46 +1242,6 @@
     "notes": null,
     "status": "completed",
     "exercises": [
-      {
-        "name": "Calf Raises",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 10,
-            "weight_lbs": null,
-            "weight_kg": 86.0,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 10,
-            "weight_lbs": null,
-            "weight_kg": 86.0,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 10,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          },
-          {
-            "set_number": 4,
-            "reps": 10,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 7892.5,
-        "total_sets": 4,
-        "total_reps": 40,
-        "max_weight_lbs": 205.0,
-        "notes": "Same as leg press. Easy \u2705; Same as leg press. Easy \u2705"
-      },
       {
         "name": "Front Raise",
         "canonical_id": null,
@@ -1347,166 +1307,6 @@
         "total_reps": 27,
         "max_weight_lbs": 40.0,
         "notes": "3 sets \u2705. Right palm tension noted; 3 sets \u2705. Right palm tension noted"
-      },
-      {
-        "name": "Leg Curl",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 86.0,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 86.0,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 7,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          },
-          {
-            "set_number": 4,
-            "reps": 5,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 5493.9,
-        "total_sets": 4,
-        "total_reps": 28,
-        "max_weight_lbs": 205.0,
-        "notes": "Fatigue drop on 93 sets. 86 is working weight \u2705; Fatigue drop on 93 sets. 86 is working weight \u2705"
-      },
-      {
-        "name": "Leg Extension",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 86.0,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 86.0,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          },
-          {
-            "set_number": 4,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 6314.0,
-        "total_sets": 4,
-        "total_reps": 32,
-        "max_weight_lbs": 205.0,
-        "notes": "High resistance on 93 sets \u2705; High resistance on 93 sets \u2705"
-      },
-      {
-        "name": "Leg Press",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 86.0,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 86.0,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 10,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          },
-          {
-            "set_number": 4,
-            "reps": 10,
-            "weight_lbs": null,
-            "weight_kg": 93.0,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 7134.2,
-        "total_sets": 4,
-        "total_reps": 36,
-        "max_weight_lbs": 205.0,
-        "notes": "+14 kg from plan (79). PR at 93 \u2705; +14 kg from plan (79). PR at 93 \u2705"
-      },
-      {
-        "name": "Leg Raises",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 4,
-            "reps": 12,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 0,
-        "total_sets": 4,
-        "total_reps": 48,
-        "max_weight_lbs": 0,
-        "notes": "As usual \u2705; As usual \u2705"
       },
       {
         "name": "Shoulder Press (machine)",
@@ -1582,6 +1382,166 @@
         "notes": "+5 lbs from plan \u2705; +5 lbs from plan \u2705"
       },
       {
+        "name": "Leg Press",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 86.0,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 86.0,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 10,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          },
+          {
+            "set_number": 4,
+            "reps": 10,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 7134.2,
+        "total_sets": 4,
+        "total_reps": 36,
+        "max_weight_lbs": 205.0,
+        "notes": "+14 kg from plan (79). PR at 93 \u2705; +14 kg from plan (79). PR at 93 \u2705"
+      },
+      {
+        "name": "Calf Raises",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 10,
+            "weight_lbs": null,
+            "weight_kg": 86.0,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 10,
+            "weight_lbs": null,
+            "weight_kg": 86.0,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 10,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          },
+          {
+            "set_number": 4,
+            "reps": 10,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 7892.5,
+        "total_sets": 4,
+        "total_reps": 40,
+        "max_weight_lbs": 205.0,
+        "notes": "Same as leg press. Easy \u2705; Same as leg press. Easy \u2705"
+      },
+      {
+        "name": "Leg Extension",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 86.0,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 86.0,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          },
+          {
+            "set_number": 4,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 6314.0,
+        "total_sets": 4,
+        "total_reps": 32,
+        "max_weight_lbs": 205.0,
+        "notes": "High resistance on 93 sets \u2705; High resistance on 93 sets \u2705"
+      },
+      {
+        "name": "Leg Curl",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 86.0,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 86.0,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 7,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          },
+          {
+            "set_number": 4,
+            "reps": 5,
+            "weight_lbs": null,
+            "weight_kg": 93.0,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 5493.9,
+        "total_sets": 4,
+        "total_reps": 28,
+        "max_weight_lbs": 205.0,
+        "notes": "Fatigue drop on 93 sets. 86 is working weight \u2705; Fatigue drop on 93 sets. 86 is working weight \u2705"
+      },
+      {
         "name": "Weighted Crunch (decline)",
         "canonical_id": null,
         "status": "completed",
@@ -1620,6 +1580,46 @@
         "total_reps": 32,
         "max_weight_lbs": 45.0,
         "notes": "As usual \u2705; As usual \u2705"
+      },
+      {
+        "name": "Leg Raises",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 4,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 0,
+        "total_sets": 4,
+        "total_reps": 48,
+        "max_weight_lbs": 0,
+        "notes": "As usual \u2705; As usual \u2705"
       }
     ],
     "total_volume_lbs": 37811.3,
@@ -1637,6 +1637,39 @@
     "notes": null,
     "status": "completed",
     "exercises": [
+      {
+        "name": "Lat Pulldown (wide grip)",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 72.0,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 72.0,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 72.0,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 3809.6,
+        "total_sets": 3,
+        "total_reps": 24,
+        "max_weight_lbs": 158.7,
+        "notes": "+6 kg from plan (66). Bar hit nose on last 3 reps set 3; +6 kg from plan (66). Bar hit nose on last 3 reps set 3"
+      },
       {
         "name": "Close Grip Lat Pulldown",
         "canonical_id": null,
@@ -1671,117 +1704,103 @@
         "notes": "+6 kg from plan (66). Clean sweep. 8th rep grind on set 3; +6 kg from plan (66). Clean sweep. 8th rep grind on set 3"
       },
       {
-        "name": "Concentration Curl",
+        "name": "Seated Row",
         "canonical_id": null,
         "status": "completed",
         "sets": [
           {
             "set_number": 1,
             "reps": 8,
-            "weight_lbs": 25.0,
-            "weight_kg": null,
+            "weight_lbs": null,
+            "weight_kg": 72.0,
             "rpe": null
           },
           {
             "set_number": 2,
-            "reps": 6,
-            "weight_lbs": 25.0,
-            "weight_kg": null,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 72.0,
             "rpe": null
           },
           {
             "set_number": 3,
-            "reps": 6,
-            "weight_lbs": 25.0,
-            "weight_kg": null,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": 72.0,
             "rpe": null
           }
         ],
-        "volume_lbs": 500.0,
+        "volume_lbs": 3809.6,
         "total_sets": 3,
-        "total_reps": 20,
-        "max_weight_lbs": 25.0,
-        "notes": "3 sets each arm. Reps dropped with fatigue; 3 sets each arm. Reps dropped with fatigue"
+        "total_reps": 24,
+        "max_weight_lbs": 158.7,
+        "notes": "+6 kg from plan (66). Shaky set 1, clean set 2, heavy set 3; +6 kg from plan (66). Shaky set 1, clean set 2, heavy set 3"
       },
       {
-        "name": "Dumbbell Bicep Curl",
+        "name": "One Arm Dumbbell Row",
         "canonical_id": null,
         "status": "completed",
         "sets": [
           {
             "set_number": 1,
-            "reps": 12,
-            "weight_lbs": 35.0,
+            "reps": 8,
+            "weight_lbs": 70.0,
             "weight_kg": null,
             "rpe": null
           },
           {
             "set_number": 2,
-            "reps": 9,
-            "weight_lbs": 35.0,
+            "reps": 8,
+            "weight_lbs": 70.0,
             "weight_kg": null,
             "rpe": null
           },
           {
             "set_number": 3,
-            "reps": 6,
-            "weight_lbs": 35.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 4,
-            "reps": 12,
-            "weight_lbs": 35.0,
+            "reps": 8,
+            "weight_lbs": 70.0,
             "weight_kg": null,
             "rpe": null
           }
         ],
-        "volume_lbs": 1365.0,
-        "total_sets": 4,
-        "total_reps": 39,
-        "max_weight_lbs": 35.0,
-        "notes": "3 working + 1 finisher. More total reps than 40 lbs ever gave; 3 working + 1 finisher. More total reps than 40 lbs ever gave"
+        "volume_lbs": 1680.0,
+        "total_sets": 3,
+        "total_reps": 24,
+        "max_weight_lbs": 70.0,
+        "notes": "+5 lbs from plan (65). All 3 sets clean; +5 lbs from plan (65). All 3 sets clean"
       },
       {
-        "name": "Forearm Wrist Curl",
+        "name": "Hammer Curl (DB)",
         "canonical_id": null,
         "status": "completed",
         "sets": [
           {
             "set_number": 1,
-            "reps": 10,
-            "weight_lbs": null,
+            "reps": 8,
+            "weight_lbs": 40.0,
             "weight_kg": null,
             "rpe": null
           },
           {
             "set_number": 2,
-            "reps": 10,
-            "weight_lbs": null,
+            "reps": 7,
+            "weight_lbs": 40.0,
             "weight_kg": null,
             "rpe": null
           },
           {
             "set_number": 3,
-            "reps": 10,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 4,
-            "reps": 10,
-            "weight_lbs": null,
+            "reps": 8,
+            "weight_lbs": 40.0,
             "weight_kg": null,
             "rpe": null
           }
         ],
-        "volume_lbs": 0,
-        "total_sets": 4,
-        "total_reps": 40,
-        "max_weight_lbs": 0,
-        "notes": "2 warmup + 2 working. Done later in session; 2 warmup + 2 working. Done later in session"
+        "volume_lbs": 920.0,
+        "total_sets": 3,
+        "total_reps": 23,
+        "max_weight_lbs": 40.0,
+        "notes": "4 clean + 1 with elbow drift; 4 clean + 1 with elbow drift"
       },
       {
         "name": "Hammer Curl (Cable Rope)",
@@ -1836,100 +1855,107 @@
         "notes": "Light finisher; Light finisher"
       },
       {
-        "name": "Hammer Curl (DB)",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": 40.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 7,
-            "weight_lbs": 40.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 8,
-            "weight_lbs": 40.0,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 920.0,
-        "total_sets": 3,
-        "total_reps": 23,
-        "max_weight_lbs": 40.0,
-        "notes": "4 clean + 1 with elbow drift; 4 clean + 1 with elbow drift"
-      },
-      {
-        "name": "Lat Pulldown (wide grip)",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 72.0,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 72.0,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 72.0,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 3809.6,
-        "total_sets": 3,
-        "total_reps": 24,
-        "max_weight_lbs": 158.7,
-        "notes": "+6 kg from plan (66). Bar hit nose on last 3 reps set 3; +6 kg from plan (66). Bar hit nose on last 3 reps set 3"
-      },
-      {
-        "name": "Leg Raises",
+        "name": "Dumbbell Bicep Curl",
         "canonical_id": null,
         "status": "completed",
         "sets": [
           {
             "set_number": 1,
             "reps": 12,
-            "weight_lbs": null,
+            "weight_lbs": 35.0,
             "weight_kg": null,
             "rpe": null
           },
           {
             "set_number": 2,
-            "reps": 12,
-            "weight_lbs": null,
+            "reps": 9,
+            "weight_lbs": 35.0,
             "weight_kg": null,
             "rpe": null
           },
           {
             "set_number": 3,
-            "reps": 12,
-            "weight_lbs": null,
+            "reps": 6,
+            "weight_lbs": 35.0,
             "weight_kg": null,
             "rpe": null
           },
           {
             "set_number": 4,
             "reps": 12,
+            "weight_lbs": 35.0,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 1365.0,
+        "total_sets": 4,
+        "total_reps": 39,
+        "max_weight_lbs": 35.0,
+        "notes": "3 working + 1 finisher. More total reps than 40 lbs ever gave; 3 working + 1 finisher. More total reps than 40 lbs ever gave"
+      },
+      {
+        "name": "Concentration Curl",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": 25.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 6,
+            "weight_lbs": 25.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 6,
+            "weight_lbs": 25.0,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 500.0,
+        "total_sets": 3,
+        "total_reps": 20,
+        "max_weight_lbs": 25.0,
+        "notes": "3 sets each arm. Reps dropped with fatigue; 3 sets each arm. Reps dropped with fatigue"
+      },
+      {
+        "name": "Forearm Wrist Curl",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 10,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 10,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 10,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 4,
+            "reps": 10,
             "weight_lbs": null,
             "weight_kg": null,
             "rpe": null
@@ -1937,75 +1963,9 @@
         ],
         "volume_lbs": 0,
         "total_sets": 4,
-        "total_reps": 48,
+        "total_reps": 40,
         "max_weight_lbs": 0,
-        "notes": "As usual; As usual"
-      },
-      {
-        "name": "One Arm Dumbbell Row",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": 70.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": 70.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 8,
-            "weight_lbs": 70.0,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 1680.0,
-        "total_sets": 3,
-        "total_reps": 24,
-        "max_weight_lbs": 70.0,
-        "notes": "+5 lbs from plan (65). All 3 sets clean; +5 lbs from plan (65). All 3 sets clean"
-      },
-      {
-        "name": "Seated Row",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 72.0,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 72.0,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": 72.0,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 3809.6,
-        "total_sets": 3,
-        "total_reps": 24,
-        "max_weight_lbs": 158.7,
-        "notes": "+6 kg from plan (66). Shaky set 1, clean set 2, heavy set 3; +6 kg from plan (66). Shaky set 1, clean set 2, heavy set 3"
+        "notes": "2 warmup + 2 working. Done later in session; 2 warmup + 2 working. Done later in session"
       },
       {
         "name": "Weighted Crunch (decline)",
@@ -2046,121 +2006,6 @@
         "total_reps": 32,
         "max_weight_lbs": 45.0,
         "notes": "As usual; As usual"
-      }
-    ],
-    "total_volume_lbs": 20346.4,
-    "total_sets": 38,
-    "total_reps": 331,
-    "exercise_count": 12
-  },
-  {
-    "id": 20,
-    "date": "2026-06-22",
-    "focus": "chest-triceps",
-    "bodyweight_kg": null,
-    "duration_min": null,
-    "rpe_session": null,
-    "notes": null,
-    "status": "completed",
-    "exercises": [
-      {
-        "name": "Decline DB Press",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": 60.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": 60.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 7,
-            "weight_lbs": 60.0,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 1380.0,
-        "total_sets": 3,
-        "total_reps": 23,
-        "max_weight_lbs": 60.0,
-        "notes": "Moved up from 55! Ready to try 65 next week; Moved up from 55! Ready to try 65 next week"
-      },
-      {
-        "name": "Flat DB Press",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 7,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 1495.0,
-        "total_sets": 3,
-        "total_reps": 23,
-        "max_weight_lbs": 65.0,
-        "notes": "Longer rest (3.5-4 min) paid off \u2014 up from 5-5-5 last week; Longer rest (3.5-4 min) paid off \u2014 up from 5-5-5 last week"
-      },
-      {
-        "name": "Incline DB Press",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 7,
-            "weight_lbs": 65.0,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 1495.0,
-        "total_sets": 3,
-        "total_reps": 23,
-        "max_weight_lbs": 65.0,
-        "notes": "Last rep dip on set 3 = normal fatigue; Last rep dip on set 3 = normal fatigue"
       },
       {
         "name": "Leg Raises",
@@ -2200,40 +2045,141 @@
         "total_sets": 4,
         "total_reps": 48,
         "max_weight_lbs": 0,
-        "notes": "Alternating with crunches; Alternating with crunches"
-      },
+        "notes": "As usual; As usual"
+      }
+    ],
+    "total_volume_lbs": 20346.4,
+    "total_sets": 38,
+    "total_reps": 331,
+    "exercise_count": 12
+  },
+  {
+    "id": 20,
+    "date": "2026-06-22",
+    "focus": "chest-triceps",
+    "bodyweight_kg": null,
+    "duration_min": null,
+    "rpe_session": null,
+    "notes": null,
+    "status": "completed",
+    "exercises": [
       {
-        "name": "Overhead Tricep Extension",
+        "name": "Warmup (DB Press)",
         "canonical_id": null,
         "status": "completed",
         "sets": [
           {
             "set_number": 1,
             "reps": 8,
-            "weight_lbs": 70.0,
+            "weight_lbs": 50.0,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 400.0,
+        "total_sets": 1,
+        "total_reps": 8,
+        "max_weight_lbs": 50.0,
+        "notes": "Primed shoulder before incline; Primed shoulder before incline"
+      },
+      {
+        "name": "Incline DB Press",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": 65.0,
             "weight_kg": null,
             "rpe": null
           },
           {
             "set_number": 2,
             "reps": 8,
-            "weight_lbs": 70.0,
+            "weight_lbs": 65.0,
             "weight_kg": null,
             "rpe": null
           },
           {
             "set_number": 3,
             "reps": 7,
-            "weight_lbs": 70.0,
+            "weight_lbs": 65.0,
             "weight_kg": null,
             "rpe": null
           }
         ],
-        "volume_lbs": 1610.0,
+        "volume_lbs": 1495.0,
         "total_sets": 3,
         "total_reps": 23,
-        "max_weight_lbs": 70.0,
-        "notes": "Two-arm DB, behind head; Two-arm DB, behind head"
+        "max_weight_lbs": 65.0,
+        "notes": "Last rep dip on set 3 = normal fatigue; Last rep dip on set 3 = normal fatigue"
+      },
+      {
+        "name": "Flat DB Press",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": 65.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": 65.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 7,
+            "weight_lbs": 65.0,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 1495.0,
+        "total_sets": 3,
+        "total_reps": 23,
+        "max_weight_lbs": 65.0,
+        "notes": "Longer rest (3.5-4 min) paid off \u2014 up from 5-5-5 last week; Longer rest (3.5-4 min) paid off \u2014 up from 5-5-5 last week"
+      },
+      {
+        "name": "Decline DB Press",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": 60.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": 60.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 7,
+            "weight_lbs": 60.0,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 1380.0,
+        "total_sets": 3,
+        "total_reps": 23,
+        "max_weight_lbs": 60.0,
+        "notes": "Moved up from 55! Ready to try 65 next week; Moved up from 55! Ready to try 65 next week"
       },
       {
         "name": "Pec Fly",
@@ -2267,39 +2213,6 @@
         "total_reps": 24,
         "max_weight_lbs": 25.0,
         "notes": "Clean. Full chest work done.; Clean. Full chest work done."
-      },
-      {
-        "name": "Tricep Dips",
-        "canonical_id": null,
-        "status": "completed",
-        "sets": [
-          {
-            "set_number": 1,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 2,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          },
-          {
-            "set_number": 3,
-            "reps": 8,
-            "weight_lbs": null,
-            "weight_kg": null,
-            "rpe": null
-          }
-        ],
-        "volume_lbs": 0,
-        "total_sets": 3,
-        "total_reps": 24,
-        "max_weight_lbs": 0,
-        "notes": "Completed; Completed"
       },
       {
         "name": "Tricep Pulldown",
@@ -2342,23 +2255,70 @@
         "notes": "Cable machine. Strong after all that pressing.; Cable machine. Strong after all that pressing."
       },
       {
-        "name": "Warmup (DB Press)",
+        "name": "Tricep Dips",
         "canonical_id": null,
         "status": "completed",
         "sets": [
           {
             "set_number": 1,
             "reps": 8,
-            "weight_lbs": 50.0,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 8,
+            "weight_lbs": null,
             "weight_kg": null,
             "rpe": null
           }
         ],
-        "volume_lbs": 400.0,
-        "total_sets": 1,
-        "total_reps": 8,
-        "max_weight_lbs": 50.0,
-        "notes": "Primed shoulder before incline; Primed shoulder before incline"
+        "volume_lbs": 0,
+        "total_sets": 3,
+        "total_reps": 24,
+        "max_weight_lbs": 0,
+        "notes": "Completed; Completed"
+      },
+      {
+        "name": "Overhead Tricep Extension",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 8,
+            "weight_lbs": 70.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 8,
+            "weight_lbs": 70.0,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 7,
+            "weight_lbs": 70.0,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 1610.0,
+        "total_sets": 3,
+        "total_reps": 23,
+        "max_weight_lbs": 70.0,
+        "notes": "Two-arm DB, behind head; Two-arm DB, behind head"
       },
       {
         "name": "Weighted Crunch (decline)",
@@ -2399,6 +2359,46 @@
         "total_reps": 32,
         "max_weight_lbs": 45.0,
         "notes": "Plate held, legs pinned; Plate held, legs pinned"
+      },
+      {
+        "name": "Leg Raises",
+        "canonical_id": null,
+        "status": "completed",
+        "sets": [
+          {
+            "set_number": 1,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 2,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 3,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          },
+          {
+            "set_number": 4,
+            "reps": 12,
+            "weight_lbs": null,
+            "weight_kg": null,
+            "rpe": null
+          }
+        ],
+        "volume_lbs": 0,
+        "total_sets": 4,
+        "total_reps": 48,
+        "max_weight_lbs": 0,
+        "notes": "Alternating with crunches; Alternating with crunches"
       }
     ],
     "total_volume_lbs": 13476.0,
