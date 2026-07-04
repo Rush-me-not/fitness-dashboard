@@ -1,0 +1,407 @@
+{
+  "exported_at": "2026-07-04",
+  "weekly": [
+    {
+      "period": "Last 7 days",
+      "session_count": 3,
+      "total_volume_lbs": 72593.9,
+      "total_sets": 111,
+      "avg_quality": 88.3,
+      "prs": 22,
+      "consistency_score": 100,
+      "overtraining_flags": [],
+      "undertraining_flags": [],
+      "priorities": [],
+      "sessions": [
+        {
+          "date": "2026-07-03",
+          "focus": "shoulders-legs",
+          "quality_score": 90.0,
+          "grade": "A",
+          "exercises": 14,
+          "sets": 37,
+          "volume_lbs": 37279.1
+        },
+        {
+          "date": "2026-07-01",
+          "focus": "back-biceps",
+          "quality_score": 88.2,
+          "grade": "A",
+          "exercises": 17,
+          "sets": 42,
+          "volume_lbs": 21293.0
+        },
+        {
+          "date": "2026-06-29",
+          "focus": "chest-triceps",
+          "quality_score": 86.8,
+          "grade": "A",
+          "exercises": 9,
+          "sets": 32,
+          "volume_lbs": 14021.9
+        }
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "date": "2026-07-03",
+      "focus": "shoulders-legs",
+      "grade": "A",
+      "score": 90.0,
+      "summary": "Excellent session (90/100) \u00b7 Volume 55% above average \u2014 high output \u00b7 PRs: Front Raise, Front Raise, Leg Curl \u00b7 Strong: Exercise Count, Set Volume, Rep Quality \u00b7 Work on: RPE Tracking",
+      "volume_lbs": 37279.1,
+      "volume_vs_avg_pct": 55.1,
+      "intensity": "moderate",
+      "dominant_rep_range": "6-8",
+      "prs": [
+        {
+          "exercise": "Front Raise",
+          "improvement_pct": 5.9
+        },
+        {
+          "exercise": "Front Raise",
+          "improvement_pct": 5.9
+        },
+        {
+          "exercise": "Leg Curl",
+          "improvement_pct": 2.7
+        }
+      ],
+      "strengths": [
+        "Front Raise",
+        "Leg Press",
+        "DB Hammer"
+      ],
+      "weaknesses": [
+        "Shrugs",
+        "Close Grip Lat Pulldown",
+        "Seated Row"
+      ],
+      "factor_breakdown": {
+        "Exercise Count": {
+          "score": 10,
+          "max": 10,
+          "note": "14 exercises"
+        },
+        "Set Volume": {
+          "score": 25,
+          "max": 25,
+          "note": "37 total sets"
+        },
+        "Rep Quality": {
+          "score": 25.0,
+          "max": 25,
+          "note": "37/37 sets in 6-15 rep range"
+        },
+        "Progressive Loading": {
+          "score": 20.0,
+          "max": 20,
+          "note": "Weight increased/maintained in 23 set transitions"
+        },
+        "RPE Tracking": {
+          "score": 0.0,
+          "max": 10,
+          "note": "0/37 sets have RPE"
+        },
+        "Muscle Variety": {
+          "score": 10,
+          "max": 10,
+          "note": "6 distinct muscle groups"
+        }
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "focus": "back-biceps",
+      "grade": "A",
+      "score": 88.2,
+      "summary": "Excellent session (88/100) \u00b7 Volume 11% below average \u2014 lighter day \u00b7 PRs: Concentration Curl, Weighted Crunch (decline) \u00b7 Strong: Exercise Count, Set Volume, Rep Quality \u00b7 Work on: RPE Tracking",
+      "volume_lbs": 21293.0,
+      "volume_vs_avg_pct": -11.4,
+      "intensity": "moderate",
+      "dominant_rep_range": "6-8",
+      "prs": [
+        {
+          "exercise": "Concentration Curl",
+          "improvement_pct": 3.6
+        },
+        {
+          "exercise": "Weighted Crunch (decline)",
+          "improvement_pct": 9.6
+        }
+      ],
+      "strengths": [
+        "Front Raise",
+        "Leg Press",
+        "DB Hammer"
+      ],
+      "weaknesses": [
+        "Shrugs",
+        "Close Grip Lat Pulldown",
+        "Seated Row"
+      ],
+      "factor_breakdown": {
+        "Exercise Count": {
+          "score": 10,
+          "max": 10,
+          "note": "17 exercises"
+        },
+        "Set Volume": {
+          "score": 25,
+          "max": 25,
+          "note": "42 total sets"
+        },
+        "Rep Quality": {
+          "score": 23.2,
+          "max": 25,
+          "note": "39/42 sets in 6-15 rep range"
+        },
+        "Progressive Loading": {
+          "score": 20.0,
+          "max": 20,
+          "note": "Weight increased/maintained in 25 set transitions"
+        },
+        "RPE Tracking": {
+          "score": 0.0,
+          "max": 10,
+          "note": "0/42 sets have RPE"
+        },
+        "Muscle Variety": {
+          "score": 10,
+          "max": 10,
+          "note": "5 distinct muscle groups"
+        }
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "focus": "chest-triceps",
+      "grade": "A",
+      "score": 86.8,
+      "summary": "Excellent session (87/100) \u00b7 Volume 42% below average \u2014 lighter day \u00b7 PRs: Overhead Tricep Extension \u00b7 Strong: Exercise Count, Set Volume, Rep Quality \u00b7 Work on: RPE Tracking",
+      "volume_lbs": 14021.9,
+      "volume_vs_avg_pct": -41.7,
+      "intensity": "hard",
+      "dominant_rep_range": "6-8",
+      "prs": [
+        {
+          "exercise": "Overhead Tricep Extension",
+          "improvement_pct": 5.2
+        }
+      ],
+      "strengths": [
+        "Front Raise",
+        "Leg Press",
+        "DB Hammer"
+      ],
+      "weaknesses": [
+        "Shrugs",
+        "Close Grip Lat Pulldown",
+        "Seated Row"
+      ],
+      "factor_breakdown": {
+        "Exercise Count": {
+          "score": 10,
+          "max": 10,
+          "note": "9 exercises"
+        },
+        "Set Volume": {
+          "score": 25,
+          "max": 25,
+          "note": "32 total sets"
+        },
+        "Rep Quality": {
+          "score": 22.7,
+          "max": 25,
+          "note": "29/32 sets in 6-15 rep range"
+        },
+        "Progressive Loading": {
+          "score": 19.1,
+          "max": 20,
+          "note": "Weight increased/maintained in 22 set transitions"
+        },
+        "RPE Tracking": {
+          "score": 0.0,
+          "max": 10,
+          "note": "0/32 sets have RPE"
+        },
+        "Muscle Variety": {
+          "score": 10,
+          "max": 10,
+          "note": "4 distinct muscle groups"
+        }
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "focus": "shoulders-legs",
+      "grade": "A",
+      "score": 89.3,
+      "summary": "Excellent session (89/100) \u00b7 Volume 57% above average \u2014 high output \u00b7 Strong: Exercise Count, Set Volume, Rep Quality \u00b7 Work on: RPE Tracking",
+      "volume_lbs": 37811.4,
+      "volume_vs_avg_pct": 57.3,
+      "intensity": "moderate",
+      "dominant_rep_range": "6-8",
+      "prs": [],
+      "strengths": [
+        "Front Raise",
+        "Leg Press",
+        "DB Hammer"
+      ],
+      "weaknesses": [
+        "Shrugs",
+        "Close Grip Lat Pulldown",
+        "Seated Row"
+      ],
+      "factor_breakdown": {
+        "Exercise Count": {
+          "score": 10,
+          "max": 10,
+          "note": "10 exercises"
+        },
+        "Set Volume": {
+          "score": 25,
+          "max": 25,
+          "note": "37 total sets"
+        },
+        "Rep Quality": {
+          "score": 24.3,
+          "max": 25,
+          "note": "36/37 sets in 6-15 rep range"
+        },
+        "Progressive Loading": {
+          "score": 20.0,
+          "max": 20,
+          "note": "Weight increased/maintained in 27 set transitions"
+        },
+        "RPE Tracking": {
+          "score": 0.0,
+          "max": 10,
+          "note": "0/37 sets have RPE"
+        },
+        "Muscle Variety": {
+          "score": 10,
+          "max": 10,
+          "note": "6 distinct muscle groups"
+        }
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "focus": "back-biceps",
+      "grade": "A",
+      "score": 90.0,
+      "summary": "Excellent session (90/100) \u00b7 Volume 15% below average \u2014 lighter day \u00b7 Strong: Exercise Count, Set Volume, Rep Quality \u00b7 Work on: RPE Tracking",
+      "volume_lbs": 20346.4,
+      "volume_vs_avg_pct": -15.4,
+      "intensity": "moderate",
+      "dominant_rep_range": "6-8",
+      "prs": [],
+      "strengths": [
+        "Front Raise",
+        "Leg Press",
+        "DB Hammer"
+      ],
+      "weaknesses": [
+        "Shrugs",
+        "Close Grip Lat Pulldown",
+        "Seated Row"
+      ],
+      "factor_breakdown": {
+        "Exercise Count": {
+          "score": 10,
+          "max": 10,
+          "note": "12 exercises"
+        },
+        "Set Volume": {
+          "score": 25,
+          "max": 25,
+          "note": "38 total sets"
+        },
+        "Rep Quality": {
+          "score": 25.0,
+          "max": 25,
+          "note": "38/38 sets in 6-15 rep range"
+        },
+        "Progressive Loading": {
+          "score": 20.0,
+          "max": 20,
+          "note": "Weight increased/maintained in 26 set transitions"
+        },
+        "RPE Tracking": {
+          "score": 0.0,
+          "max": 10,
+          "note": "0/38 sets have RPE"
+        },
+        "Muscle Variety": {
+          "score": 10,
+          "max": 10,
+          "note": "5 distinct muscle groups"
+        }
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "focus": "chest-triceps",
+      "grade": "A",
+      "score": 90.0,
+      "summary": "Excellent session (90/100) \u00b7 Volume 44% below average \u2014 lighter day \u00b7 Strong: Exercise Count, Set Volume, Rep Quality \u00b7 Work on: RPE Tracking",
+      "volume_lbs": 13476.0,
+      "volume_vs_avg_pct": -43.9,
+      "intensity": "moderate",
+      "dominant_rep_range": "6-8",
+      "prs": [],
+      "strengths": [
+        "Front Raise",
+        "Leg Press",
+        "DB Hammer"
+      ],
+      "weaknesses": [
+        "Shrugs",
+        "Close Grip Lat Pulldown",
+        "Seated Row"
+      ],
+      "factor_breakdown": {
+        "Exercise Count": {
+          "score": 10,
+          "max": 10,
+          "note": "10 exercises"
+        },
+        "Set Volume": {
+          "score": 25,
+          "max": 25,
+          "note": "31 total sets"
+        },
+        "Rep Quality": {
+          "score": 25.0,
+          "max": 25,
+          "note": "31/31 sets in 6-15 rep range"
+        },
+        "Progressive Loading": {
+          "score": 20.0,
+          "max": 20,
+          "note": "Weight increased/maintained in 21 set transitions"
+        },
+        "RPE Tracking": {
+          "score": 0.0,
+          "max": 10,
+          "note": "0/31 sets have RPE"
+        },
+        "Muscle Variety": {
+          "score": 10.0,
+          "max": 10,
+          "note": "3 distinct muscle groups"
+        }
+      }
+    }
+  ],
+  "alerts": [
+    {
+      "type": "improving",
+      "icon": "\ud83d\udcc8",
+      "title": "1 exercises improving",
+      "detail": "Weighted Crunch (decline) (+8.6%/wk)"
+    }
+  ]
+}

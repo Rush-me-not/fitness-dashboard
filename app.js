@@ -20,7 +20,8 @@ window.FD = DATA;
 async function init() {
   const files = [
     'workouts', 'exercises', 'progression', 'prs',
-    'weekly_summary', 'coaching_reviews', 'decision_history', 'system_health'
+    'weekly_summary', 'coaching_reviews', 'decision_history', 'system_health',
+    'workout_insights'
   ];
 
   const results = await Promise.allSettled(
@@ -326,31 +327,95 @@ function renderMuscles(container) {
 // ── Insights ───────────────────────────────────────────────────────────
 
 function renderInsights(container) {
-  const reviews = DATA.coaching_reviews?.sessions || [];
-  const weekly = DATA.weekly_summary?.weeks || [];
-  const avg = DATA.coaching_reviews?.avg_score || 0;
+  const insights = window.FD?.workout_insights || {};
+  const sessions = insights.sessions || [];
+  const weekly = insights.weekly || [];
+  const alerts = insights.alerts || [];
 
-  container.innerHTML = `
-    <div class="kpi-grid">
-      <div class="kpi ${avg >= 70 ? 'trend-up' : ''}"><div class="value">${avg.toFixed(0)}</div><div class="label">Average Quality</div></div>
-      <div class="kpi"><div class="value">${reviews.length}</div><div class="label">Sessions Reviewed</div></div>
-      <div class="kpi"><div class="value">${weekly.length}</div><div class="label">Weeks Tracked</div></div>
-    </div>
-    <h3 style="color:var(--muted);margin-bottom:8px;">Recent Session Quality</h3>
-    <div id="insights-list">
-      ${reviews.slice(0, 15).map(r => `
-      <div class="session-row">
-        <div class="session-header">
-          <span class="session-date">${r.date}</span>
-          <span class="session-focus">${r.focus || 'Workout'}</span>
-          <span class="session-meta">${r.exercise_count} ex · ${r.total_sets} sets</span>
-          <span class="session-grade grade-${r.grade}">${r.grade}</span>
-          <span style="color:var(--muted);font-size:0.9em;">${r.quality_score?.toFixed(0)}/100</span>
+  let html = '';
+
+  // ── Progression Alerts ───────────────────────────────
+  if (alerts.length) {
+    html += '<div class="card-grid" style="margin-bottom:20px;">';
+    alerts.forEach(a => {
+      const bg = a.type === 'improving' ? '#1b3a1b' : a.type === 'plateau' ? '#3a2f1b' : '#1a1a24';
+      html += `<div class="card" style="background:${bg};border-color:${a.type==='improving'?'var(--green)':a.type==='plateau'?'var(--yellow)':'var(--border)'};">
+        <div style="font-size:1.4em;">${a.icon || ''}</div>
+        <strong>${a.title || ''}</strong>
+        <p style="color:var(--muted);font-size:0.85em;margin-top:4px;">${a.detail || ''}</p>
+      </div>`;
+    });
+    html += '</div>';
+  }
+
+  // ── This Week ────────────────────────────────────────
+  if (weekly.length) {
+    const w = weekly[0];
+    html += `<div class="card" style="margin-bottom:20px;">
+      <h3>📊 ${w.period || 'This Week'}</h3>
+      <div class="kpi-grid" style="margin-bottom:0;">
+        <div class="kpi"><div class="value" style="font-size:1.4em;">${w.session_count || 0}</div><div class="label">Sessions</div></div>
+        <div class="kpi"><div class="value" style="font-size:1.4em;">${fmt(w.total_volume_lbs)}</div><div class="label">Volume (lbs)</div></div>
+        <div class="kpi"><div class="value" style="font-size:1.4em;">${fmt(w.total_sets)}</div><div class="label">Sets</div></div>
+        <div class="kpi"><div class="value" style="font-size:1.4em;">${w.prs || 0}</div><div class="label">PRs</div></div>
+        <div class="kpi ${(w.avg_quality||0)>=70?'trend-up':''}"><div class="value" style="font-size:1.4em;">${(w.avg_quality||0).toFixed(0)}</div><div class="label">Avg Quality</div></div>
+        <div class="kpi ${(w.consistency_score||0)>=80?'trend-up':''}"><div class="value" style="font-size:1.4em;">${(w.consistency_score||0).toFixed(0)}%</div><div class="label">Consistency</div></div>
+      </div>`;
+
+    // Flags
+    const flags = [...(w.overtraining_flags||[]), ...(w.undertraining_flags||[])];
+    if (flags.length) {
+      html += '<div style="margin-top:12px;">';
+      flags.forEach(f => html += `<span style="display:inline-block;background:var(--card);padding:4px 10px;border-radius:12px;margin:2px;font-size:0.8em;color:var(--yellow);">⚠ ${f}</span>`);
+      html += '</div>';
+    }
+
+    // Priorities
+    if (w.priorities && w.priorities.length) {
+      html += '<div style="margin-top:12px;"><strong style="color:var(--accent);">Priorities:</strong>';
+      w.priorities.forEach(p => html += `<p style="color:var(--muted);font-size:0.85em;margin:2px 0 0 16px;">→ ${p.action}</p>`);
+      html += '</div>';
+    }
+    html += '</div>';
+  }
+
+  // ── Per-Session Insights ─────────────────────────────
+  if (sessions.length) {
+    html += '<h3 style="color:var(--muted);margin-bottom:8px;">Session-by-Session</h3>';
+    sessions.forEach(s => {
+      const bg = s.grade === 'A' ? '#1b3a1b33' : s.grade === 'B' ? '#1a2a1a33' : '';
+      html += `<div class="decision-card conf-${s.grade==='A'?'high':s.grade==='B'?'medium':'low'}" style="background:${bg};cursor:pointer;" onclick="this.querySelector('.detail').classList.toggle('open')">
+        <div class="decision-header">
+          <span class="session-grade grade-${s.grade}" style="font-size:1.2em;">${s.grade}</span>
+          <span style="font-weight:600;">${s.date}</span>
+          <span style="color:var(--accent);">${s.focus || ''}</span>
+          <span style="color:var(--muted);font-size:0.8em;">${fmt(s.volume_lbs)} lbs · ${s.intensity || ''}</span>
         </div>
-      </div>`).join('')}
-    </div>
-    ${reviews.length === 0 ? '<p style="color:var(--muted);">No coaching reviews available. Complete more workouts to generate insights.</p>' : ''}
-  `;
+        <p style="color:var(--text);font-size:0.9em;margin:4px 0;">${s.summary || ''}</p>`;
+
+      // PRs
+      if (s.prs && s.prs.length) {
+        html += '<div style="margin-top:4px;">';
+        s.prs.forEach(p => html += `<span style="display:inline-block;background:#1b3a1b;color:var(--green);padding:2px 8px;border-radius:8px;margin:2px;font-size:0.75em;">🏆 ${p.exercise} ${p.improvement_pct>0?'+'+p.improvement_pct+'%':''}</span>`);
+        html += '</div>';
+      }
+
+      // Expandable detail
+      html += `<div class="detail session-detail" style="margin-top:8px;">`;
+      if (s.factor_breakdown) {
+        html += '<div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;">';
+        for (const [name, f] of Object.entries(s.factor_breakdown)) {
+          const pct = f.max ? (f.score/f.max*100) : 0;
+          const color = pct >= 80 ? 'var(--green)' : pct >= 50 ? 'var(--accent)' : pct >= 30 ? 'var(--yellow)' : 'var(--red)';
+          html += `<div style="font-size:0.8em;"><span style="color:var(--muted)">${name}:</span> <span style="color:${color}">${f.score.toFixed(0)}/${f.max}</span></div>`;
+        }
+        html += '</div>';
+      }
+      html += '</div></div>';
+    });
+  }
+
+  container.innerHTML = html || '<p style="color:var(--muted);padding:40px;text-align:center;">No insights yet — complete workouts to generate analysis.</p>';
 }
 
 // ── Decisions ──────────────────────────────────────────────────────────
