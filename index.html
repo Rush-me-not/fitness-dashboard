@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fitness Dashboard — Hermes Coach</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav id="top-nav">
+  <span class="logo">⚡ Fitness</span>
+  <div class="nav-tabs" id="nav-tabs">
+    <button class="nav-tab active" data-tab="overview">Overview</button>
+    <button class="nav-tab" data-tab="history">History</button>
+    <button class="nav-tab" data-tab="progression">Progression</button>
+    <button class="nav-tab" data-tab="muscles">Muscles</button>
+    <button class="nav-tab" data-tab="insights">Insights</button>
+    <button class="nav-tab" data-tab="decisions">Decisions</button>
+    <button class="nav-tab" data-tab="health">Health</button>
+  </div>
+  <span class="updated" id="last-updated"></span>
+</nav>
+
+<main id="main-content">
+  <!-- Dynamically rendered by app.js -->
+</main>
+
+<footer>
+  <span>Hermes Fitness Coach</span>
+  <span id="data-age"></span>
+</footer>
+
+<script src="app.js"></script>
+<script src="charts.js"></script>
+</body>
+</html>

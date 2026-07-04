@@ -1,0 +1,390 @@
+/* ── Hermes Fitness Dashboard — Styles ───────────────────────────── */
+
+:root {
+  --bg: #0a0a0f;
+  --surface: #13131a;
+  --card: #1a1a24;
+  --border: #252530;
+  --text: #e1e1e6;
+  --muted: #6b6b7b;
+  --accent: #5b9bd5;
+  --accent2: #7c5ce7;
+  --green: #2ea043;
+  --yellow: #d2991d;
+  --red: #f85149;
+  --radius: 10px;
+  --transition: 0.2s ease;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* ── Navigation ───────────────────────────────────── */
+
+#top-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 20px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.1em;
+  color: var(--accent);
+  margin-right: 16px;
+}
+
+.nav-tabs { display: flex; gap: 2px; flex-wrap: wrap; }
+
+.nav-tab {
+  background: none;
+  border: none;
+  color: var(--muted);
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: var(--transition);
+}
+
+.nav-tab:hover { color: var(--text); background: var(--card); }
+.nav-tab.active { color: var(--accent); background: var(--card); font-weight: 600; }
+
+.updated { margin-left: auto; color: var(--muted); font-size: 0.8em; }
+
+/* ── Layout ───────────────────────────────────────── */
+
+#main-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: var(--muted);
+  font-size: 0.8em;
+  border-top: 1px solid var(--border);
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* ── KPI Cards ────────────────────────────────────── */
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.kpi {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.kpi .value {
+  font-size: 2em;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1.1;
+}
+
+.kpi .label {
+  color: var(--muted);
+  font-size: 0.82em;
+  margin-top: 4px;
+}
+
+.kpi.trend-up .value { color: var(--green); }
+.kpi.trend-down .value { color: var(--red); }
+.kpi.warn .value { color: var(--yellow); }
+
+/* ── Cards ────────────────────────────────────────── */
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  color: var(--muted);
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+/* ── Workout History ──────────────────────────────── */
+
+.session-row {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.session-row:hover { border-color: var(--accent); }
+
+.session-header {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 12px;
+}
+
+.session-date { font-weight: 600; min-width: 100px; }
+.session-focus { color: var(--accent); font-size: 0.9em; }
+.session-grade {
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 1.1em;
+  min-width: 28px;
+  text-align: center;
+}
+.grade-A { color: var(--green); }
+.grade-B { color: var(--accent); }
+.grade-C { color: var(--yellow); }
+.grade-D { color: var(--red); }
+
+.session-meta {
+  color: var(--muted);
+  font-size: 0.8em;
+  display: flex;
+  gap: 12px;
+}
+
+.session-detail {
+  display: none;
+  padding: 0 16px 16px;
+  border-top: 1px solid var(--border);
+}
+
+.session-detail.open { display: block; }
+
+.exercise-row {
+  display: grid;
+  grid-template-columns: 1fr 80px 120px 60px;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9em;
+  align-items: center;
+}
+
+.exercise-row:last-child { border-bottom: none; }
+
+.ex-name { color: var(--text); }
+.ex-sets { color: var(--muted); text-align: center; }
+.ex-weight { color: var(--accent); text-align: right; }
+.ex-status { text-align: center; font-size: 0.8em; }
+.status-completed { color: var(--green); }
+.status-skipped { color: var(--red); }
+
+/* ── Muscle Grid ──────────────────────────────────── */
+
+.muscle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.muscle-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  text-align: center;
+}
+
+.muscle-card .name {
+  font-weight: 600;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+.muscle-card .volume {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.muscle-card .detail {
+  color: var(--muted);
+  font-size: 0.8em;
+  margin-top: 4px;
+}
+
+.volume-high { color: var(--accent); }
+.volume-mid { color: var(--accent2); }
+.volume-low { color: var(--muted); }
+
+.balance-bar {
+  height: 4px;
+  border-radius: 2px;
+  margin-top: 8px;
+  background: var(--border);
+}
+
+.balance-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.5s ease;
+}
+
+/* ── Health Panel ─────────────────────────────────── */
+
+.health-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 12px;
+}
+
+.health-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.health-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.health-dot.green { background: var(--green); }
+.health-dot.yellow { background: var(--yellow); }
+.health-dot.red { background: var(--red); }
+
+/* ── Decision Cards ───────────────────────────────── */
+
+.decision-card {
+  background: var(--card);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.decision-card.conf-high { border-left-color: var(--green); }
+.decision-card.conf-medium { border-left-color: var(--yellow); }
+.decision-card.conf-low { border-left-color: var(--muted); }
+
+.decision-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.decision-badge {
+  font-size: 0.7em;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.badge-high { background: #1b3a1b; color: var(--green); }
+.badge-medium { background: #3a2f1b; color: var(--yellow); }
+.badge-low { background: #2a1b1b; color: var(--muted); }
+
+.decision-outcome {
+  font-size: 0.8em;
+  margin-top: 4px;
+}
+
+.outcome-success { color: var(--green); }
+.outcome-failed { color: var(--red); }
+.outcome-pending { color: var(--muted); }
+
+/* ── Filters ──────────────────────────────────────── */
+
+.filter-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.filter-bar input,
+.filter-bar select {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9em;
+}
+
+.filter-bar input:focus,
+.filter-bar select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.filter-bar input { min-width: 200px; }
+
+/* ── Chart containers ─────────────────────────────── */
+
+.chart-box {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.chart-box canvas { max-height: 350px; }
+
+/* ── Responsive ───────────────────────────────────── */
+
+@media (max-width: 768px) {
+  #top-nav { padding: 8px 12px; }
+  .nav-tab { padding: 6px 10px; font-size: 0.8em; }
+  .updated { display: none; }
+  .card-grid { grid-template-columns: 1fr; }
+  .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+  .session-header { flex-wrap: wrap; }
+  .exercise-row { grid-template-columns: 1fr 60px 80px 40px; font-size: 0.8em; }
+}
+
+@media (max-width: 480px) {
+  .kpi-grid { grid-template-columns: 1fr 1fr; }
+  .nav-tab { padding: 6px 8px; font-size: 0.75em; }
+}
