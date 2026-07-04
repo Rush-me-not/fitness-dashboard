@@ -34,3 +34,4 @@ GitHub Pages auto-deploys from `main` branch root.
 ## Data
 
 All data is exported from the live `fitness.db` by `export_dashboard_data_v2.py`. No backend server required — this is a purely static site.
+ 
