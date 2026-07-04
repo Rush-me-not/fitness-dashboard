@@ -120,9 +120,13 @@ function renderOverview(container) {
 
   // Render charts
   setTimeout(() => {
-    renderWeeklyVolumeChart('overview-weekly-chart');
-    renderQualityTrendChart('overview-quality-chart');
-  }, 100);
+    try {
+      renderWeeklyVolumeChart('overview-weekly-chart');
+      renderQualityTrendChart('overview-quality-chart');
+    } catch(e) {
+      console.error('Chart error:', e);
+    }
+  }, 200);
 }
 
 // ── History ───────────────────────────────────────────────────────────

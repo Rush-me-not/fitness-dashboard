@@ -5,9 +5,10 @@
 
 function renderWeeklyVolumeChart(canvasId) {
   const canvas = document.getElementById(canvasId);
-  if (!canvas) return;
+  if (!canvas) { console.warn('Canvas not found:', canvasId); return; }
 
   const weeks = window.FD?.weekly_summary?.weeks || [];
+  console.log('weekly chart: weeks=' + weeks.length + ' FD=' + !!window.FD);
   if (!weeks.length) return;
 
   new Chart(canvas, {
@@ -40,6 +41,7 @@ function renderQualityTrendChart(canvasId) {
   if (!canvas) return;
 
   const reviews = window.FD?.coaching_reviews?.sessions || [];
+  console.log('quality chart: reviews=' + reviews.length);
   if (!reviews.length) return;
 
   const data = [...reviews].reverse();
