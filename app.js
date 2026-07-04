@@ -178,13 +178,22 @@ function renderHistory(container) {
           ${grade ? `<span class="session-grade grade-${grade}">${grade}</span>` : ''}
         </div>
         <div class="session-detail" id="detail-${w.id}">
-          ${(w.exercises || []).map(ex => `
+          ${(w.exercises || []).map(ex => {
+            // Build per-set rep string (e.g., "8-8-7" or "3×8")
+            const repList = (ex.sets || []).map(s => s.reps).join('-');
+            const repDisplay = repList || `${ex.total_sets}×${Math.round(ex.total_reps/ex.total_sets)}`;
+            // Per-set weight string
+            const weights = [...new Set((ex.sets || []).map(s => s.weight_lbs || s.weight_kg || 0).filter(w => w>0))];
+            const wtDisplay = weights.length === 1 ? weights[0] + ' lbs' : 
+                             weights.length > 1 ? weights.join('/') + ' lbs' : 
+                             ex.max_weight_lbs > 0 ? fmt(ex.max_weight_lbs) + ' lbs' : 'BW';
+            return `
           <div class="exercise-row">
             <span class="ex-name">${ex.name}</span>
-            <span class="ex-sets">${ex.total_sets}s × ${ex.total_reps}r</span>
-            <span class="ex-weight">${ex.max_weight_lbs > 0 ? fmt(ex.max_weight_lbs) + ' lbs' : 'BW'}</span>
+            <span class="ex-sets">${ex.total_sets}×${repDisplay}</span>
+            <span class="ex-weight">${wtDisplay}</span>
             <span class="ex-status status-${ex.status || 'completed'}">${ex.status || 'done'}</span>
-          </div>`).join('')}
+          </div>`}).join('')}
           ${w.notes ? `<p style="color:var(--muted);font-size:0.85em;margin-top:8px;">📝 ${w.notes}</p>` : ''}
         </div>
       </div>`;
