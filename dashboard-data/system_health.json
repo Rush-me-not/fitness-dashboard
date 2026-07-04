@@ -1,0 +1,41 @@
+{
+  "overall": "warning",
+  "healthy": 5,
+  "warnings": [
+    {
+      "component": "canonical_ids",
+      "status": "warning",
+      "detail": "245/245 exercises missing canonical_id (older sessions)"
+    }
+  ],
+  "critical": 0,
+  "healthy_items": [
+    {
+      "component": "sessions",
+      "status": "healthy",
+      "detail": "6 sessions recorded"
+    },
+    {
+      "component": "recent_activity",
+      "status": "healthy",
+      "detail": "3 workouts this week"
+    },
+    {
+      "component": "schema",
+      "status": "healthy",
+      "detail": "Schema up-to-date (canonical_id + status columns present)"
+    },
+    {
+      "component": "weight_data",
+      "status": "healthy",
+      "detail": "643/792 sets have weight data"
+    },
+    {
+      "component": "decisions",
+      "status": "healthy",
+      "detail": "18 recommendations in log"
+    }
+  ],
+  "issues": [],
+  "exported_at": "2026-07-04"
+}

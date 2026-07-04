@@ -1,0 +1,554 @@
+{
+  "Cable Rope Hammer": [
+    {
+      "date": "2026-07-01",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 130.1,
+      "volume_lbs": 3121.7
+    }
+  ],
+  "Cable Rope Hammer (warmup)": [
+    {
+      "date": "2026-07-01",
+      "total_sets": 1,
+      "total_reps": 8,
+      "max_weight_lbs": 99.2,
+      "volume_lbs": 793.7
+    }
+  ],
+  "Calf Raise": [
+    {
+      "date": "2026-07-03",
+      "total_sets": 2,
+      "total_reps": 24,
+      "max_weight_lbs": 205.0,
+      "volume_lbs": 4920.7
+    }
+  ],
+  "Calf Raises": [
+    {
+      "date": "2026-06-26",
+      "total_sets": 4,
+      "total_reps": 40,
+      "max_weight_lbs": 205.0,
+      "volume_lbs": 7892.5
+    }
+  ],
+  "Close Grip Lat Pulldown": [
+    {
+      "date": "2026-06-24",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 158.7,
+      "volume_lbs": 3809.6
+    },
+    {
+      "date": "2026-07-01",
+      "total_sets": 3,
+      "total_reps": 23,
+      "max_weight_lbs": 158.7,
+      "volume_lbs": 3650.9
+    }
+  ],
+  "Concentration Curl": [
+    {
+      "date": "2026-06-24",
+      "total_sets": 3,
+      "total_reps": 20,
+      "max_weight_lbs": 25.0,
+      "volume_lbs": 500.0
+    },
+    {
+      "date": "2026-07-01",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 25.0,
+      "volume_lbs": 600.0
+    }
+  ],
+  "DB Bicep Curl (supinated)": [
+    {
+      "date": "2026-07-01",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 40.0,
+      "volume_lbs": 865.0
+    }
+  ],
+  "DB Hammer": [
+    {
+      "date": "2026-07-01",
+      "total_sets": 5,
+      "total_reps": 33,
+      "max_weight_lbs": 40.0,
+      "volume_lbs": 1240.0
+    }
+  ],
+  "DB Hammer (warmup)": [
+    {
+      "date": "2026-07-01",
+      "total_sets": 1,
+      "total_reps": 8,
+      "max_weight_lbs": 30.0,
+      "volume_lbs": 240.0
+    }
+  ],
+  "Decline DB Press": [
+    {
+      "date": "2026-06-22",
+      "total_sets": 3,
+      "total_reps": 23,
+      "max_weight_lbs": 60.0,
+      "volume_lbs": 1380.0
+    }
+  ],
+  "Decline Dumbbell Press": [
+    {
+      "date": "2026-06-29",
+      "total_sets": 3,
+      "total_reps": 21,
+      "max_weight_lbs": 65.0,
+      "volume_lbs": 1365.0
+    }
+  ],
+  "Dips": [
+    {
+      "date": "2026-06-29",
+      "total_sets": 3,
+      "total_reps": 47,
+      "max_weight_lbs": 0,
+      "volume_lbs": null
+    }
+  ],
+  "Dumbbell Bicep Curl": [
+    {
+      "date": "2026-06-24",
+      "total_sets": 4,
+      "total_reps": 39,
+      "max_weight_lbs": 35.0,
+      "volume_lbs": 1365.0
+    }
+  ],
+  "Flat DB Press": [
+    {
+      "date": "2026-06-22",
+      "total_sets": 3,
+      "total_reps": 23,
+      "max_weight_lbs": 65.0,
+      "volume_lbs": 1495.0
+    }
+  ],
+  "Flat Dumbbell Press": [
+    {
+      "date": "2026-06-29",
+      "total_sets": 3,
+      "total_reps": 22,
+      "max_weight_lbs": 65.0,
+      "volume_lbs": 1430.0
+    }
+  ],
+  "Forearm Wrist Curl": [
+    {
+      "date": "2026-06-24",
+      "total_sets": 4,
+      "total_reps": 40,
+      "max_weight_lbs": 0,
+      "volume_lbs": null
+    },
+    {
+      "date": "2026-07-01",
+      "total_sets": 4,
+      "total_reps": 40,
+      "max_weight_lbs": 0,
+      "volume_lbs": null
+    }
+  ],
+  "Front Raise": [
+    {
+      "date": "2026-06-26",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 40.0,
+      "volume_lbs": 960.0
+    },
+    {
+      "date": "2026-07-03",
+      "total_sets": 4,
+      "total_reps": 41,
+      "max_weight_lbs": 40.0,
+      "volume_lbs": 1520.0
+    }
+  ],
+  "Hammer Curl (Cable Rope)": [
+    {
+      "date": "2026-06-24",
+      "total_sets": 3,
+      "total_reps": 21,
+      "max_weight_lbs": 123.5,
+      "volume_lbs": 2592.6
+    }
+  ],
+  "Hammer Curl (DB finisher)": [
+    {
+      "date": "2026-06-24",
+      "total_sets": 1,
+      "total_reps": 12,
+      "max_weight_lbs": 35.0,
+      "volume_lbs": 420.0
+    }
+  ],
+  "Hammer Curl (DB)": [
+    {
+      "date": "2026-06-24",
+      "total_sets": 3,
+      "total_reps": 23,
+      "max_weight_lbs": 40.0,
+      "volume_lbs": 920.0
+    }
+  ],
+  "Incline DB Press": [
+    {
+      "date": "2026-06-22",
+      "total_sets": 3,
+      "total_reps": 23,
+      "max_weight_lbs": 65.0,
+      "volume_lbs": 1495.0
+    }
+  ],
+  "Incline Dumbbell Press": [
+    {
+      "date": "2026-06-29",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 65.0,
+      "volume_lbs": 1560.0
+    }
+  ],
+  "Lat Pulldown (wide grip)": [
+    {
+      "date": "2026-06-24",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 158.7,
+      "volume_lbs": 3809.6
+    }
+  ],
+  "Lat Pulldown (wide)": [
+    {
+      "date": "2026-07-01",
+      "total_sets": 3,
+      "total_reps": 23,
+      "max_weight_lbs": 158.7,
+      "volume_lbs": 3650.9
+    }
+  ],
+  "Lateral Raise (90\u00b0 bent)": [
+    {
+      "date": "2026-06-26",
+      "total_sets": 3,
+      "total_reps": 27,
+      "max_weight_lbs": 40.0,
+      "volume_lbs": 1080.0
+    }
+  ],
+  "Lateral Raise (90\u00b0 bent, R's way)": [
+    {
+      "date": "2026-07-03",
+      "total_sets": 3,
+      "total_reps": 29,
+      "max_weight_lbs": 40.0,
+      "volume_lbs": 1160.0
+    }
+  ],
+  "Leg Curl": [
+    {
+      "date": "2026-06-26",
+      "total_sets": 4,
+      "total_reps": 28,
+      "max_weight_lbs": 205.0,
+      "volume_lbs": 5493.9
+    },
+    {
+      "date": "2026-07-03",
+      "total_sets": 4,
+      "total_reps": 32,
+      "max_weight_lbs": 205.0,
+      "volume_lbs": 6560.9
+    }
+  ],
+  "Leg Extension": [
+    {
+      "date": "2026-06-26",
+      "total_sets": 4,
+      "total_reps": 32,
+      "max_weight_lbs": 205.0,
+      "volume_lbs": 6314.0
+    },
+    {
+      "date": "2026-07-03",
+      "total_sets": 4,
+      "total_reps": 32,
+      "max_weight_lbs": 205.0,
+      "volume_lbs": 6560.9
+    }
+  ],
+  "Leg Press": [
+    {
+      "date": "2026-06-26",
+      "total_sets": 4,
+      "total_reps": 36,
+      "max_weight_lbs": 205.0,
+      "volume_lbs": 7134.2
+    },
+    {
+      "date": "2026-07-03",
+      "total_sets": 4,
+      "total_reps": 35,
+      "max_weight_lbs": 205.0,
+      "volume_lbs": 7021.7
+    }
+  ],
+  "Leg Raises": [
+    {
+      "date": "2026-06-22",
+      "total_sets": 4,
+      "total_reps": 48,
+      "max_weight_lbs": 0,
+      "volume_lbs": null
+    },
+    {
+      "date": "2026-06-24",
+      "total_sets": 4,
+      "total_reps": 48,
+      "max_weight_lbs": 0,
+      "volume_lbs": null
+    },
+    {
+      "date": "2026-06-26",
+      "total_sets": 4,
+      "total_reps": 48,
+      "max_weight_lbs": 0,
+      "volume_lbs": null
+    },
+    {
+      "date": "2026-06-29",
+      "total_sets": 4,
+      "total_reps": 48,
+      "max_weight_lbs": 0,
+      "volume_lbs": null
+    },
+    {
+      "date": "2026-07-01",
+      "total_sets": 4,
+      "total_reps": 48,
+      "max_weight_lbs": 0,
+      "volume_lbs": null
+    },
+    {
+      "date": "2026-07-03",
+      "total_sets": 4,
+      "total_reps": 48,
+      "max_weight_lbs": 0,
+      "volume_lbs": null
+    }
+  ],
+  "One Arm Dumbbell Row": [
+    {
+      "date": "2026-06-24",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 70.0,
+      "volume_lbs": 1680.0
+    },
+    {
+      "date": "2026-07-01",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 70.0,
+      "volume_lbs": 1680.0
+    }
+  ],
+  "Overhead Tricep Extension": [
+    {
+      "date": "2026-06-22",
+      "total_sets": 3,
+      "total_reps": 23,
+      "max_weight_lbs": 70.0,
+      "volume_lbs": 1610.0
+    },
+    {
+      "date": "2026-06-29",
+      "total_sets": 4,
+      "total_reps": 28,
+      "max_weight_lbs": 75.0,
+      "volume_lbs": 2100.0
+    }
+  ],
+  "Pec Fly": [
+    {
+      "date": "2026-06-22",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 25.0,
+      "volume_lbs": 600.0
+    }
+  ],
+  "Pec Fly (DB)": [
+    {
+      "date": "2026-06-29",
+      "total_sets": 4,
+      "total_reps": 27,
+      "max_weight_lbs": 30.0,
+      "volume_lbs": 730.0
+    }
+  ],
+  "Reverse Forearm Curl": [
+    {
+      "date": "2026-07-01",
+      "total_sets": 2,
+      "total_reps": 20,
+      "max_weight_lbs": 15.0,
+      "volume_lbs": 300.0
+    }
+  ],
+  "Seated Row": [
+    {
+      "date": "2026-06-24",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 158.7,
+      "volume_lbs": 3809.6
+    },
+    {
+      "date": "2026-07-01",
+      "total_sets": 3,
+      "total_reps": 23,
+      "max_weight_lbs": 158.7,
+      "volume_lbs": 3650.9
+    }
+  ],
+  "Shoulder Press (machine)": [
+    {
+      "date": "2026-06-26",
+      "total_sets": 4,
+      "total_reps": 32,
+      "max_weight_lbs": 189.6,
+      "volume_lbs": 5696.7
+    }
+  ],
+  "Shoulder Press Machine": [
+    {
+      "date": "2026-07-03",
+      "total_sets": 4,
+      "total_reps": 36,
+      "max_weight_lbs": 174.2,
+      "volume_lbs": 6084.8
+    }
+  ],
+  "Shrugs": [
+    {
+      "date": "2026-06-26",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 75.0,
+      "volume_lbs": 1800.0
+    },
+    {
+      "date": "2026-07-03",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 75.0,
+      "volume_lbs": 1800.0
+    }
+  ],
+  "Treadmill Incline Walk": [
+    {
+      "date": "2026-07-03",
+      "total_sets": 1,
+      "total_reps": 10,
+      "max_weight_lbs": 0,
+      "volume_lbs": null
+    }
+  ],
+  "Tricep Dips": [
+    {
+      "date": "2026-06-22",
+      "total_sets": 3,
+      "total_reps": 24,
+      "max_weight_lbs": 0,
+      "volume_lbs": null
+    }
+  ],
+  "Tricep Pulldown": [
+    {
+      "date": "2026-06-22",
+      "total_sets": 4,
+      "total_reps": 32,
+      "max_weight_lbs": 158.0,
+      "volume_lbs": 5056.0
+    },
+    {
+      "date": "2026-06-29",
+      "total_sets": 4,
+      "total_reps": 34,
+      "max_weight_lbs": 158.7,
+      "volume_lbs": 5396.9
+    }
+  ],
+  "Warmup (DB Press)": [
+    {
+      "date": "2026-06-22",
+      "total_sets": 1,
+      "total_reps": 8,
+      "max_weight_lbs": 50.0,
+      "volume_lbs": 400.0
+    }
+  ],
+  "Weighted Crunch": [
+    {
+      "date": "2026-07-03",
+      "total_sets": 4,
+      "total_reps": 30,
+      "max_weight_lbs": 55.0,
+      "volume_lbs": 1650.0
+    }
+  ],
+  "Weighted Crunch (decline)": [
+    {
+      "date": "2026-06-22",
+      "total_sets": 4,
+      "total_reps": 32,
+      "max_weight_lbs": 45.0,
+      "volume_lbs": 1440.0
+    },
+    {
+      "date": "2026-06-24",
+      "total_sets": 4,
+      "total_reps": 32,
+      "max_weight_lbs": 45.0,
+      "volume_lbs": 1440.0
+    },
+    {
+      "date": "2026-06-26",
+      "total_sets": 4,
+      "total_reps": 32,
+      "max_weight_lbs": 45.0,
+      "volume_lbs": 1440.0
+    },
+    {
+      "date": "2026-06-29",
+      "total_sets": 4,
+      "total_reps": 32,
+      "max_weight_lbs": 45.0,
+      "volume_lbs": 1440.0
+    },
+    {
+      "date": "2026-07-01",
+      "total_sets": 4,
+      "total_reps": 30,
+      "max_weight_lbs": 50.0,
+      "volume_lbs": 1500.0
+    }
+  ]
+}

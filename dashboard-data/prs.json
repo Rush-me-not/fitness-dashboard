@@ -1,0 +1,366 @@
+[
+  {
+    "date": "2026-07-01",
+    "exercise": "Cable Rope Hammer",
+    "weight_lbs": 130.1,
+    "weight_kg": 59.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-07-01",
+    "exercise": "Cable Rope Hammer (warmup)",
+    "weight_lbs": 99.2,
+    "weight_kg": 45.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-07-03",
+    "exercise": "Calf Raise",
+    "weight_lbs": 205.0,
+    "weight_kg": 93.0,
+    "reps": 12
+  },
+  {
+    "date": "2026-06-26",
+    "exercise": "Calf Raises",
+    "weight_lbs": 189.6,
+    "weight_kg": 86.0,
+    "reps": 10
+  },
+  {
+    "date": "2026-06-26",
+    "exercise": "Calf Raises",
+    "weight_lbs": 205.0,
+    "weight_kg": 93.0,
+    "reps": 10
+  },
+  {
+    "date": "2026-06-24",
+    "exercise": "Close Grip Lat Pulldown",
+    "weight_lbs": 158.7,
+    "weight_kg": 72.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-24",
+    "exercise": "Concentration Curl",
+    "weight_lbs": 25.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-07-01",
+    "exercise": "DB Bicep Curl (supinated)",
+    "weight_lbs": 35.0,
+    "weight_kg": null,
+    "reps": 12
+  },
+  {
+    "date": "2026-07-01",
+    "exercise": "DB Bicep Curl (supinated)",
+    "weight_lbs": 40.0,
+    "weight_kg": null,
+    "reps": 5
+  },
+  {
+    "date": "2026-07-01",
+    "exercise": "DB Hammer",
+    "weight_lbs": 35.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-07-01",
+    "exercise": "DB Hammer",
+    "weight_lbs": 40.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-07-01",
+    "exercise": "DB Hammer (warmup)",
+    "weight_lbs": 30.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-22",
+    "exercise": "Decline DB Press",
+    "weight_lbs": 60.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-29",
+    "exercise": "Decline Dumbbell Press",
+    "weight_lbs": 65.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-24",
+    "exercise": "Dumbbell Bicep Curl",
+    "weight_lbs": 35.0,
+    "weight_kg": null,
+    "reps": 12
+  },
+  {
+    "date": "2026-06-22",
+    "exercise": "Flat DB Press",
+    "weight_lbs": 65.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-29",
+    "exercise": "Flat Dumbbell Press",
+    "weight_lbs": 65.0,
+    "weight_kg": null,
+    "reps": 7
+  },
+  {
+    "date": "2026-06-26",
+    "exercise": "Front Raise",
+    "weight_lbs": 40.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-24",
+    "exercise": "Hammer Curl (Cable Rope)",
+    "weight_lbs": 123.5,
+    "weight_kg": 56.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-24",
+    "exercise": "Hammer Curl (DB finisher)",
+    "weight_lbs": 35.0,
+    "weight_kg": null,
+    "reps": 12
+  },
+  {
+    "date": "2026-06-24",
+    "exercise": "Hammer Curl (DB)",
+    "weight_lbs": 40.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-22",
+    "exercise": "Incline DB Press",
+    "weight_lbs": 65.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-29",
+    "exercise": "Incline Dumbbell Press",
+    "weight_lbs": 65.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-24",
+    "exercise": "Lat Pulldown (wide grip)",
+    "weight_lbs": 158.7,
+    "weight_kg": 72.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-07-01",
+    "exercise": "Lat Pulldown (wide)",
+    "weight_lbs": 158.7,
+    "weight_kg": 72.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-26",
+    "exercise": "Lateral Raise (90\u00b0 bent)",
+    "weight_lbs": 40.0,
+    "weight_kg": null,
+    "reps": 9
+  },
+  {
+    "date": "2026-07-03",
+    "exercise": "Lateral Raise (90\u00b0 bent, R's way)",
+    "weight_lbs": 40.0,
+    "weight_kg": null,
+    "reps": 9
+  },
+  {
+    "date": "2026-06-26",
+    "exercise": "Leg Curl",
+    "weight_lbs": 189.6,
+    "weight_kg": 86.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-26",
+    "exercise": "Leg Curl",
+    "weight_lbs": 205.0,
+    "weight_kg": 93.0,
+    "reps": 7
+  },
+  {
+    "date": "2026-06-26",
+    "exercise": "Leg Extension",
+    "weight_lbs": 189.6,
+    "weight_kg": 86.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-26",
+    "exercise": "Leg Extension",
+    "weight_lbs": 205.0,
+    "weight_kg": 93.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-26",
+    "exercise": "Leg Press",
+    "weight_lbs": 189.6,
+    "weight_kg": 86.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-26",
+    "exercise": "Leg Press",
+    "weight_lbs": 205.0,
+    "weight_kg": 93.0,
+    "reps": 10
+  },
+  {
+    "date": "2026-06-24",
+    "exercise": "One Arm Dumbbell Row",
+    "weight_lbs": 70.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-22",
+    "exercise": "Overhead Tricep Extension",
+    "weight_lbs": 70.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-29",
+    "exercise": "Overhead Tricep Extension",
+    "weight_lbs": 75.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-22",
+    "exercise": "Pec Fly",
+    "weight_lbs": 25.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-29",
+    "exercise": "Pec Fly (DB)",
+    "weight_lbs": 25.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-29",
+    "exercise": "Pec Fly (DB)",
+    "weight_lbs": 30.0,
+    "weight_kg": null,
+    "reps": 5
+  },
+  {
+    "date": "2026-07-01",
+    "exercise": "Reverse Forearm Curl",
+    "weight_lbs": 15.0,
+    "weight_kg": null,
+    "reps": 10
+  },
+  {
+    "date": "2026-06-24",
+    "exercise": "Seated Row",
+    "weight_lbs": 158.7,
+    "weight_kg": 72.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-26",
+    "exercise": "Shoulder Press (machine)",
+    "weight_lbs": 174.2,
+    "weight_kg": 79.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-26",
+    "exercise": "Shoulder Press (machine)",
+    "weight_lbs": 189.6,
+    "weight_kg": 86.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-07-03",
+    "exercise": "Shoulder Press Machine",
+    "weight_lbs": 158.7,
+    "weight_kg": 72.0,
+    "reps": 12
+  },
+  {
+    "date": "2026-07-03",
+    "exercise": "Shoulder Press Machine",
+    "weight_lbs": 174.2,
+    "weight_kg": 79.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-26",
+    "exercise": "Shrugs",
+    "weight_lbs": 75.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-22",
+    "exercise": "Tricep Pulldown",
+    "weight_lbs": 158.0,
+    "weight_kg": 72.0,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-29",
+    "exercise": "Tricep Pulldown",
+    "weight_lbs": 158.7,
+    "weight_kg": 72.0,
+    "reps": 9
+  },
+  {
+    "date": "2026-06-22",
+    "exercise": "Warmup (DB Press)",
+    "weight_lbs": 50.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-07-03",
+    "exercise": "Weighted Crunch",
+    "weight_lbs": 55.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-06-22",
+    "exercise": "Weighted Crunch (decline)",
+    "weight_lbs": 45.0,
+    "weight_kg": null,
+    "reps": 8
+  },
+  {
+    "date": "2026-07-01",
+    "exercise": "Weighted Crunch (decline)",
+    "weight_lbs": 50.0,
+    "weight_kg": null,
+    "reps": 8
+  }
+]

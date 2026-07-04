@@ -1,0 +1,589 @@
+{
+  "incl-db-press": {
+    "canonical_id": "incl-db-press",
+    "canonical_name": "Incline Dumbbell Press",
+    "aliases": [
+      "incline dumbbell press",
+      "incline db press",
+      "db incline press",
+      "incline press",
+      "incline chest press",
+      "incline dumbell press"
+    ],
+    "muscle_group": "chest",
+    "equipment": "dumbbell",
+    "weight_unit": "lbs",
+    "display_name": "Incline Dumbbell Press",
+    "day": "monday",
+    "plan_sets": 3,
+    "plan_reps": 8,
+    "plan_weight": 65,
+    "plan_weight_unit": "lbs",
+    "notes": ""
+  },
+  "flat-db-press": {
+    "canonical_id": "flat-db-press",
+    "canonical_name": "Flat Dumbbell Press",
+    "aliases": [
+      "flat dumbbell press",
+      "flat db press",
+      "db flat press",
+      "flat press",
+      "flat chest press",
+      "flat dumbell press",
+      "dumbbell bench press"
+    ],
+    "muscle_group": "chest",
+    "equipment": "dumbbell",
+    "weight_unit": "lbs",
+    "display_name": "Flat Dumbbell Press",
+    "day": "monday",
+    "plan_sets": 3,
+    "plan_reps": 8,
+    "plan_weight": 65,
+    "plan_weight_unit": "lbs",
+    "notes": "Rest 3.5-4 min between sets"
+  },
+  "decl-db-press": {
+    "canonical_id": "decl-db-press",
+    "canonical_name": "Decline Dumbbell Press",
+    "aliases": [
+      "decline dumbbell press",
+      "decline db press",
+      "db decline press",
+      "decline press",
+      "decline chest press",
+      "decline dumbell press"
+    ],
+    "muscle_group": "chest",
+    "equipment": "dumbbell",
+    "weight_unit": "lbs",
+    "display_name": "Decline Dumbbell Press",
+    "day": "monday",
+    "plan_sets": 3,
+    "plan_reps": 8,
+    "plan_weight": 65,
+    "plan_weight_unit": "lbs",
+    "notes": "Try 65 \u2014 progressed from 55\u219260 (Jun 22)"
+  },
+  "pec-fly": {
+    "canonical_id": "pec-fly",
+    "canonical_name": "Pectoral Fly",
+    "aliases": [
+      "pectoral fly",
+      "pec fly",
+      "pec deck",
+      "chest fly",
+      "chest fly machine",
+      "fly machine"
+    ],
+    "muscle_group": "chest",
+    "equipment": "machine",
+    "weight_unit": "lbs",
+    "display_name": "Pectoral Fly",
+    "day": "monday",
+    "plan_sets": 3,
+    "plan_reps": 8,
+    "plan_weight": 25,
+    "plan_weight_unit": "lbs",
+    "notes": ""
+  },
+  "tricep-pulldown": {
+    "canonical_id": "tricep-pulldown",
+    "canonical_name": "Tricep Pulldown",
+    "aliases": [
+      "tricep pulldown",
+      "tricep pushdown",
+      "tricep pull down",
+      "tricep push down",
+      "cable tricep pulldown",
+      "cable pushdown",
+      "rope pulldown",
+      "rope pushdown"
+    ],
+    "muscle_group": "triceps",
+    "equipment": "cable",
+    "weight_unit": "kg",
+    "display_name": "Tricep Pulldown",
+    "day": "monday",
+    "plan_sets": "3-4",
+    "plan_reps": "8-10",
+    "plan_weight": 72,
+    "plan_weight_unit": "kg",
+    "notes": "Cable. Progressed from 66\u219272"
+  },
+  "tricep-dips": {
+    "canonical_id": "tricep-dips",
+    "canonical_name": "Tricep Dips",
+    "aliases": [
+      "tricep dips",
+      "dips",
+      "tricep dip",
+      "bench dips",
+      "bodyweight dips"
+    ],
+    "muscle_group": "triceps",
+    "equipment": "bodyweight",
+    "weight_unit": "bodyweight",
+    "display_name": "Tricep Dips",
+    "day": "monday",
+    "plan_sets": 3,
+    "plan_reps": "8-12",
+    "plan_weight": null,
+    "plan_weight_unit": "bodyweight",
+    "notes": ""
+  },
+  "overhead-tricep-ext": {
+    "canonical_id": "overhead-tricep-ext",
+    "canonical_name": "Overhead Tricep Extension (two-arm dumbbell)",
+    "aliases": [
+      "overhead tricep extension",
+      "overhead tricep ext",
+      "two arm tricep extension",
+      "db overhead tricep extension",
+      "dumbbell overhead tricep extension",
+      "overhead db tricep",
+      "french press"
+    ],
+    "muscle_group": "triceps",
+    "equipment": "dumbbell",
+    "weight_unit": "lbs",
+    "display_name": "Overhead Tricep Extension (two-arm dumbbell)",
+    "day": "monday",
+    "plan_sets": 3,
+    "plan_reps": 8,
+    "plan_weight": 70,
+    "plan_weight_unit": "lbs",
+    "notes": "Single DB held with both hands, behind head"
+  },
+  "lat-pulldown": {
+    "canonical_id": "lat-pulldown",
+    "canonical_name": "Lat Pulldown",
+    "aliases": [
+      "lat pulldown",
+      "lat pull down",
+      "lat pull",
+      "wide grip lat pulldown",
+      "wide lat pulldown"
+    ],
+    "muscle_group": "back",
+    "equipment": "cable",
+    "weight_unit": "kg",
+    "display_name": "Lat Pulldown",
+    "day": "wednesday",
+    "plan_sets": 3,
+    "plan_reps": "8-10",
+    "plan_weight": 72,
+    "plan_weight_unit": "kg",
+    "notes": "Wide grip. Bar to upper chest"
+  },
+  "close-grip-lat-pulldown": {
+    "canonical_id": "close-grip-lat-pulldown",
+    "canonical_name": "Close Grip Lat Pulldown",
+    "aliases": [
+      "close grip lat pulldown",
+      "close grip lat pull down",
+      "close grip pull down",
+      "close grip lat pull",
+      "close pulldown",
+      "narrow grip lat pulldown",
+      "narrow pulldown"
+    ],
+    "muscle_group": "back",
+    "equipment": "cable",
+    "weight_unit": "kg",
+    "display_name": "Close Grip Lat Pulldown",
+    "day": "wednesday",
+    "plan_sets": 3,
+    "plan_reps": "8-10",
+    "plan_weight": 72,
+    "plan_weight_unit": "kg",
+    "notes": ""
+  },
+  "seated-row": {
+    "canonical_id": "seated-row",
+    "canonical_name": "Seated Row",
+    "aliases": [
+      "seated row",
+      "seated cable row",
+      "cable row",
+      "row machine",
+      "seated row machine"
+    ],
+    "muscle_group": "back",
+    "equipment": "cable",
+    "weight_unit": "kg",
+    "display_name": "Seated Row",
+    "day": "wednesday",
+    "plan_sets": 3,
+    "plan_reps": "8-10",
+    "plan_weight": 72,
+    "plan_weight_unit": "kg",
+    "notes": ""
+  },
+  "one-arm-db-row": {
+    "canonical_id": "one-arm-db-row",
+    "canonical_name": "One Arm Dumbbell Row",
+    "aliases": [
+      "one arm dumbbell row",
+      "one arm db row",
+      "single arm dumbbell row",
+      "single arm db row",
+      "db row",
+      "dumbbell row",
+      "1 arm db row",
+      "bent over db row"
+    ],
+    "muscle_group": "back",
+    "equipment": "dumbbell",
+    "weight_unit": "lbs",
+    "display_name": "One Arm Dumbbell Row",
+    "day": "wednesday",
+    "plan_sets": 3,
+    "plan_reps": "8-10",
+    "plan_weight": 70,
+    "plan_weight_unit": "lbs",
+    "notes": "Progressed from 65\u219270"
+  },
+  "cable-rope-hammer-curl": {
+    "canonical_id": "cable-rope-hammer-curl",
+    "canonical_name": "Cable Rope Hammer Curl",
+    "aliases": [
+      "cable rope hammer curl",
+      "cable hammer curl",
+      "rope hammer curl",
+      "cable rope hammer",
+      "hammer curl cable",
+      "rope curl",
+      "cable curl rope"
+    ],
+    "muscle_group": "biceps",
+    "equipment": "cable",
+    "weight_unit": "kg",
+    "display_name": "Cable Rope Hammer Curl",
+    "day": "wednesday",
+    "plan_sets": 4,
+    "plan_reps": 8,
+    "plan_weight": 56,
+    "plan_weight_unit": "kg",
+    "notes": "PRIMARY hammer exercise. 56-59 kg range. DB hammer banned for working sets."
+  },
+  "db-hammer-curl": {
+    "canonical_id": "db-hammer-curl",
+    "canonical_name": "DB Hammer Curl",
+    "aliases": [
+      "db hammer curl",
+      "dumbbell hammer curl",
+      "hammer curl",
+      "hammer curls",
+      "db hammer",
+      "hammer db curl"
+    ],
+    "muscle_group": "biceps",
+    "equipment": "dumbbell",
+    "weight_unit": "lbs",
+    "display_name": "DB Hammer Curl",
+    "day": "wednesday",
+    "plan_sets": 2,
+    "plan_reps": 8,
+    "plan_weight": 30,
+    "plan_weight_unit": "lbs",
+    "notes": "WARMUP only (optional). 30 lbs max. Stop if elbow drifts."
+  },
+  "db-bicep-curl": {
+    "canonical_id": "db-bicep-curl",
+    "canonical_name": "Dumbbell Bicep Curl (supinated)",
+    "aliases": [
+      "dumbbell bicep curl",
+      "db bicep curl",
+      "bicep curl",
+      "bicep curls",
+      "supinated curl",
+      "db curl",
+      "dumbbell curl",
+      "standing bicep curl"
+    ],
+    "muscle_group": "biceps",
+    "equipment": "dumbbell",
+    "weight_unit": "lbs",
+    "display_name": "Dumbbell Bicep Curl (supinated)",
+    "day": "wednesday",
+    "plan_sets": 3,
+    "plan_reps": "8-10",
+    "plan_weight": 35,
+    "plan_weight_unit": "lbs",
+    "notes": "35 lbs confirmed optimal. Progress to 40 when 3\u00d710 clean."
+  },
+  "concentration-curl": {
+    "canonical_id": "concentration-curl",
+    "canonical_name": "Concentration Curl",
+    "aliases": [
+      "concentration curl",
+      "concentration curls",
+      "concentrated curl",
+      "seated concentration curl"
+    ],
+    "muscle_group": "biceps",
+    "equipment": "dumbbell",
+    "weight_unit": "lbs",
+    "display_name": "Concentration Curl",
+    "day": "wednesday",
+    "plan_sets": 3,
+    "plan_reps": 8,
+    "plan_weight": 25,
+    "plan_weight_unit": "lbs",
+    "notes": ""
+  },
+  "forearm-wrist-curl": {
+    "canonical_id": "forearm-wrist-curl",
+    "canonical_name": "Forearm Wrist Curl",
+    "aliases": [
+      "forearm wrist curl",
+      "wrist curl",
+      "forearm curl",
+      "wrist flexor",
+      "wrist curls"
+    ],
+    "muscle_group": "forearms",
+    "equipment": "dumbbell",
+    "weight_unit": "lbs",
+    "display_name": "Forearm Wrist Curl",
+    "day": "wednesday",
+    "plan_sets": 4,
+    "plan_reps": "10-15",
+    "plan_weight": null,
+    "plan_weight_unit": null,
+    "notes": "2 warmup + 2 working"
+  },
+  "front-raise": {
+    "canonical_id": "front-raise",
+    "canonical_name": "Front Raise",
+    "aliases": [
+      "front raise",
+      "front raises",
+      "db front raise",
+      "dumbbell front raise",
+      "anterior raise"
+    ],
+    "muscle_group": "shoulders",
+    "equipment": "dumbbell",
+    "weight_unit": "lbs",
+    "display_name": "Front Raise",
+    "day": "friday",
+    "plan_sets": 3,
+    "plan_reps": 8,
+    "plan_weight": 40,
+    "plan_weight_unit": "lbs",
+    "notes": ""
+  },
+  "lateral-raise": {
+    "canonical_id": "lateral-raise",
+    "canonical_name": "Lateral Raise",
+    "aliases": [
+      "lateral raise",
+      "lateral raises",
+      "side raise",
+      "side raises",
+      "db lateral raise",
+      "dumbbell lateral raise",
+      "lateral raise bent"
+    ],
+    "muscle_group": "shoulders",
+    "equipment": "dumbbell",
+    "weight_unit": "lbs",
+    "display_name": "Lateral Raise",
+    "day": "friday",
+    "plan_sets": 3,
+    "plan_reps": 8,
+    "plan_weight": 40,
+    "plan_weight_unit": "lbs",
+    "notes": ""
+  },
+  "shoulder-press-machine": {
+    "canonical_id": "shoulder-press-machine",
+    "canonical_name": "Shoulder Press (machine)",
+    "aliases": [
+      "shoulder press machine",
+      "shoulder press",
+      "machine shoulder press",
+      "shoulder press mach",
+      "overhead press machine"
+    ],
+    "muscle_group": "shoulders",
+    "equipment": "machine",
+    "weight_unit": "kg",
+    "display_name": "Shoulder Press (machine)",
+    "day": "friday",
+    "plan_sets": [
+      {
+        "reps": 10,
+        "weight": 72
+      },
+      {
+        "reps": 10,
+        "weight": 72
+      },
+      {
+        "reps": 8,
+        "weight": 86
+      },
+      {
+        "reps": 8,
+        "weight": 86
+      }
+    ],
+    "plan_reps": null,
+    "plan_weight": null,
+    "plan_weight_unit": "kg",
+    "notes": "4 sets total. Progressed to 86 kg (Jun 26 PR). Hold 86."
+  },
+  "shrugs": {
+    "canonical_id": "shrugs",
+    "canonical_name": "Shrugs",
+    "aliases": [
+      "shrugs",
+      "shrug",
+      "db shrugs",
+      "dumbbell shrugs",
+      "smith shrugs",
+      "smith machine shrugs",
+      "barbell shrugs",
+      "trap shrugs",
+      "trap bar shrugs"
+    ],
+    "muscle_group": "traps",
+    "equipment": "variable",
+    "weight_unit": "lbs",
+    "display_name": "Shrugs",
+    "day": "friday",
+    "plan_sets": 3,
+    "plan_reps": 8,
+    "plan_weight": 75,
+    "plan_weight_unit": "lbs",
+    "notes": "Progressed from 70\u219275 (Jun 26)"
+  },
+  "leg-press": {
+    "canonical_id": "leg-press",
+    "canonical_name": "Leg Press",
+    "aliases": [
+      "leg press",
+      "leg press machine",
+      "leg press mach"
+    ],
+    "muscle_group": "quads",
+    "equipment": "machine",
+    "weight_unit": "kg",
+    "display_name": "Leg Press",
+    "day": "friday",
+    "plan_sets": "3-4",
+    "plan_reps": "8-10",
+    "plan_weight": 93,
+    "plan_weight_unit": "kg",
+    "notes": "Progressed to 93 kg (Jun 26 PR). Try 4\u00d793 or 2\u00d793+2\u00d7100"
+  },
+  "calf-raises": {
+    "canonical_id": "calf-raises",
+    "canonical_name": "Calf Raises (on leg press machine)",
+    "aliases": [
+      "calf raises",
+      "calf raise",
+      "calf press",
+      "leg press calf raises",
+      "standing calf raises"
+    ],
+    "muscle_group": "calves",
+    "equipment": "machine",
+    "weight_unit": "kg",
+    "display_name": "Calf Raises (on leg press machine)",
+    "day": "friday",
+    "plan_sets": "3-4",
+    "plan_reps": "10-15",
+    "plan_weight": 100,
+    "plan_weight_unit": "kg",
+    "notes": "Progressed to 100 kg. Same machine as leg press"
+  },
+  "leg-extension": {
+    "canonical_id": "leg-extension",
+    "canonical_name": "Leg Extension",
+    "aliases": [
+      "leg extension",
+      "leg ext",
+      "leg extensions",
+      "quad extension"
+    ],
+    "muscle_group": "quads",
+    "equipment": "machine",
+    "weight_unit": "kg",
+    "display_name": "Leg Extension",
+    "day": "friday",
+    "plan_sets": 3,
+    "plan_reps": 8,
+    "plan_weight": 93,
+    "plan_weight_unit": "kg",
+    "notes": "Progressed to 93 kg. Aim for 4\u00d710 clean"
+  },
+  "leg-curl": {
+    "canonical_id": "leg-curl",
+    "canonical_name": "Leg Curl",
+    "aliases": [
+      "leg curl",
+      "leg curls",
+      "hamstring curl",
+      "lying leg curl",
+      "seated leg curl"
+    ],
+    "muscle_group": "hamstrings",
+    "equipment": "machine",
+    "weight_unit": "kg",
+    "display_name": "Leg Curl",
+    "day": "friday",
+    "plan_sets": 3,
+    "plan_reps": 8,
+    "plan_weight": 93,
+    "plan_weight_unit": "kg",
+    "notes": "93 held. Try 2\u00d786+2\u00d793 progression"
+  },
+  "weighted-crunch": {
+    "canonical_id": "weighted-crunch",
+    "canonical_name": "Weighted Crunch (decline)",
+    "aliases": [
+      "weighted crunch",
+      "weighted crunches",
+      "decline crunch",
+      "decline weighted crunch",
+      "ab crunch",
+      "abs crunch weighted"
+    ],
+    "muscle_group": "abs",
+    "equipment": "bodyweight+plate",
+    "weight_unit": "lbs",
+    "display_name": "Weighted Crunch (decline)",
+    "day": "every",
+    "plan_sets": 4,
+    "plan_reps": "8-12",
+    "plan_weight": 45,
+    "plan_weight_unit": "lbs",
+    "notes": "Plate held, legs pinned"
+  },
+  "leg-raises": {
+    "canonical_id": "leg-raises",
+    "canonical_name": "Leg Raises",
+    "aliases": [
+      "leg raises",
+      "leg raise",
+      "hanging leg raises",
+      "lying leg raises",
+      "ab leg raises"
+    ],
+    "muscle_group": "abs",
+    "equipment": "bodyweight",
+    "weight_unit": "bodyweight",
+    "display_name": "Leg Raises",
+    "day": "every",
+    "plan_sets": 4,
+    "plan_reps": 12,
+    "plan_weight": null,
+    "plan_weight_unit": "bodyweight",
+    "notes": "Unloaded"
+  }
+}

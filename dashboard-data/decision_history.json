@@ -1,0 +1,696 @@
+{
+  "recommendations": [
+    {
+      "id": "dec_20260703_9eeff6",
+      "created_at": "2026-07-03T20:36:39.350595",
+      "category": "progressive_overload",
+      "decision": "Increase Front Raise from 40 to 42 lbs",
+      "rationale": "Plateau detected",
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "plateau",
+          "detail": "3 sessions at 40 lbs"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Increase reps",
+          "why_rejected": "Already in range"
+        }
+      ],
+      "expected_benefit": "Break plateau",
+      "risks": [
+        "Form breakdown"
+      ],
+      "follow_up_metric": "Front Raise weight after 2 sessions",
+      "target_exercise": "Front Raise",
+      "target_muscle_group": null,
+      "status": "evaluated",
+      "evaluated_at": "2026-07-03T20:36:39.350888",
+      "was_followed": null,
+      "was_successful": true,
+      "outcome_notes": "Front Raise improved from 40 to 42 lbs \u2014 plateau broken"
+    },
+    {
+      "id": "dec_20260703_912165",
+      "created_at": "2026-07-03T20:37:06.977059",
+      "category": "progressive_overload",
+      "decision": "Maintain 158.7 kg \u2014 add volume via extra set or rep",
+      "rationale": "Stable performance at 158.7 kg. Adding volume (reps or sets) before increasing weight builds a stronger foundation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "progression",
+          "detail": "Progression rate: 0.5%/week over 7 days",
+          "source": "Sessions 2026-06-22 \u2192 2026-06-29"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Increase weight by 3-5%",
+          "why_rejected": "Volume should be maximized before weight increase for hypertrophy focus"
+        }
+      ],
+      "expected_benefit": "Build volume base before next weight increase",
+      "risks": [
+        "Additional volume may increase session duration"
+      ],
+      "follow_up_metric": "Total sets for Tricep Pulldown next session",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_456cfa",
+      "created_at": "2026-07-03T20:37:06.977414",
+      "category": "progressive_overload",
+      "decision": "Maintain 158.7 kg \u2014 add volume via extra set or rep",
+      "rationale": "Stable performance at 158.7 kg. Adding volume (reps or sets) before increasing weight builds a stronger foundation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "progression",
+          "detail": "Progression rate: 0.0%/week over 7 days",
+          "source": "Sessions 2026-06-24 \u2192 2026-07-01"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Increase weight by 3-5%",
+          "why_rejected": "Volume should be maximized before weight increase for hypertrophy focus"
+        }
+      ],
+      "expected_benefit": "Build volume base before next weight increase",
+      "risks": [
+        "Additional volume may increase session duration"
+      ],
+      "follow_up_metric": "Total sets for Close Grip Lat Pulldown next session",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_c55e08",
+      "created_at": "2026-07-03T20:37:06.978560",
+      "category": "progressive_overload",
+      "decision": "Maintain 158.7 kg \u2014 add volume via extra set or rep",
+      "rationale": "Stable performance at 158.7 kg. Adding volume (reps or sets) before increasing weight builds a stronger foundation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "progression",
+          "detail": "Progression rate: 0.0%/week over 7 days",
+          "source": "Sessions 2026-06-24 \u2192 2026-07-01"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Increase weight by 3-5%",
+          "why_rejected": "Volume should be maximized before weight increase for hypertrophy focus"
+        }
+      ],
+      "expected_benefit": "Build volume base before next weight increase",
+      "risks": [
+        "Additional volume may increase session duration"
+      ],
+      "follow_up_metric": "Total sets for Seated Row next session",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_51e36f",
+      "created_at": "2026-07-03T20:37:06.979486",
+      "category": "progressive_overload",
+      "decision": "Maintain 70.0 lbs \u2014 add volume via extra set or rep",
+      "rationale": "Stable performance at 70.0 lbs. Adding volume (reps or sets) before increasing weight builds a stronger foundation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "progression",
+          "detail": "Progression rate: 0.0%/week over 7 days",
+          "source": "Sessions 2026-06-24 \u2192 2026-07-01"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Increase weight by 3-5%",
+          "why_rejected": "Volume should be maximized before weight increase for hypertrophy focus"
+        }
+      ],
+      "expected_benefit": "Build volume base before next weight increase",
+      "risks": [
+        "Additional volume may increase session duration"
+      ],
+      "follow_up_metric": "Total sets for One Arm Dumbbell Row next session",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_e2096e",
+      "created_at": "2026-07-03T20:37:06.980431",
+      "category": "progressive_overload",
+      "decision": "Maintain 25.0 lbs \u2014 add volume via extra set or rep",
+      "rationale": "Stable performance at 25.0 lbs. Adding volume (reps or sets) before increasing weight builds a stronger foundation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "progression",
+          "detail": "Progression rate: 0.0%/week over 7 days",
+          "source": "Sessions 2026-06-24 \u2192 2026-07-01"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Increase weight by 3-5%",
+          "why_rejected": "Volume should be maximized before weight increase for hypertrophy focus"
+        }
+      ],
+      "expected_benefit": "Build volume base before next weight increase",
+      "risks": [
+        "Additional volume may increase session duration"
+      ],
+      "follow_up_metric": "Total sets for Concentration Curl next session",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_bf2dba",
+      "created_at": "2026-07-03T20:37:06.981335",
+      "category": "progressive_overload",
+      "decision": "Maintain 0 None \u2014 add volume via extra set or rep",
+      "rationale": "Stable performance at 0 None. Adding volume (reps or sets) before increasing weight builds a stronger foundation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "progression",
+          "detail": "Progression rate: None%/week over 0 days",
+          "source": "Sessions None \u2192 None"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Increase weight by 3-5%",
+          "why_rejected": "Volume should be maximized before weight increase for hypertrophy focus"
+        }
+      ],
+      "expected_benefit": "Build volume base before next weight increase",
+      "risks": [
+        "Additional volume may increase session duration"
+      ],
+      "follow_up_metric": "Total sets for Forearm Wrist Curl next session",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_5efc07",
+      "created_at": "2026-07-03T20:37:06.982274",
+      "category": "progressive_overload",
+      "decision": "Increase Front Raise from 40.0 to 42.0 lbs",
+      "rationale": "Plateau confirmed at 40.0 lbs across 3 sessions with 0% progression. A 5% weight increase should provide sufficient novel stimulus to break through.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "progression",
+          "detail": "Progression rate: 0.0%/week over 12 days",
+          "source": "Sessions 2026-06-26 \u2192 2026-07-08"
+        },
+        {
+          "type": "plateau",
+          "detail": "Stalled at ~40.0 lbs across 3 sessions",
+          "source": "Dates: 2026-07-08, 2026-07-03, 2026-06-26"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Increase reps from 8 to 10 at current weight",
+          "why_rejected": "Rep increase alone unlikely to break through; already in hypertrophy range"
+        },
+        {
+          "option": "Deload for one session, then rebuild",
+          "why_rejected": "Plateau is likely due to insufficient stimulus, not excessive fatigue"
+        }
+      ],
+      "expected_benefit": "Break through current plateau within 2-3 sessions",
+      "risks": [
+        "Form breakdown at higher weight \u2014 monitor closely",
+        "May need to reduce reps temporarily (e.g., 6-8 instead of 8-10)"
+      ],
+      "follow_up_metric": "Front Raise weight after 2 sessions (target: >40.0)",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_a7a151",
+      "created_at": "2026-07-03T20:37:06.983337",
+      "category": "progressive_overload",
+      "decision": "Maintain 75.0 lbs \u2014 add volume via extra set or rep",
+      "rationale": "Stable performance at 75.0 lbs. Adding volume (reps or sets) before increasing weight builds a stronger foundation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "progression",
+          "detail": "Progression rate: 0.0%/week over 7 days",
+          "source": "Sessions 2026-06-26 \u2192 2026-07-03"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Increase weight by 3-5%",
+          "why_rejected": "Volume should be maximized before weight increase for hypertrophy focus"
+        }
+      ],
+      "expected_benefit": "Build volume base before next weight increase",
+      "risks": [
+        "Additional volume may increase session duration"
+      ],
+      "follow_up_metric": "Total sets for Shrugs next session",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_5e8605",
+      "created_at": "2026-07-03T20:37:06.984565",
+      "category": "progressive_overload",
+      "decision": "Maintain 205.0 kg \u2014 add volume via extra set or rep",
+      "rationale": "Stable performance at 205.0 kg. Adding volume (reps or sets) before increasing weight builds a stronger foundation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "progression",
+          "detail": "Progression rate: 0.0%/week over 7 days",
+          "source": "Sessions 2026-06-26 \u2192 2026-07-03"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Increase weight by 3-5%",
+          "why_rejected": "Volume should be maximized before weight increase for hypertrophy focus"
+        }
+      ],
+      "expected_benefit": "Build volume base before next weight increase",
+      "risks": [
+        "Additional volume may increase session duration"
+      ],
+      "follow_up_metric": "Total sets for Leg Press next session",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_e933b0",
+      "created_at": "2026-07-03T20:37:06.985602",
+      "category": "progressive_overload",
+      "decision": "Maintain 205.0 kg \u2014 add volume via extra set or rep",
+      "rationale": "Stable performance at 205.0 kg. Adding volume (reps or sets) before increasing weight builds a stronger foundation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "progression",
+          "detail": "Progression rate: 0.0%/week over 7 days",
+          "source": "Sessions 2026-06-26 \u2192 2026-07-03"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Increase weight by 3-5%",
+          "why_rejected": "Volume should be maximized before weight increase for hypertrophy focus"
+        }
+      ],
+      "expected_benefit": "Build volume base before next weight increase",
+      "risks": [
+        "Additional volume may increase session duration"
+      ],
+      "follow_up_metric": "Total sets for Leg Extension next session",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_31b3d5",
+      "created_at": "2026-07-03T20:37:06.986816",
+      "category": "progressive_overload",
+      "decision": "Maintain 205.0 kg \u2014 add volume via extra set or rep",
+      "rationale": "Stable performance at 205.0 kg. Adding volume (reps or sets) before increasing weight builds a stronger foundation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "progression",
+          "detail": "Progression rate: 0.0%/week over 7 days",
+          "source": "Sessions 2026-06-26 \u2192 2026-07-03"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Increase weight by 3-5%",
+          "why_rejected": "Volume should be maximized before weight increase for hypertrophy focus"
+        }
+      ],
+      "expected_benefit": "Build volume base before next weight increase",
+      "risks": [
+        "Additional volume may increase session duration"
+      ],
+      "follow_up_metric": "Total sets for Leg Curl next session",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_ab5d29",
+      "created_at": "2026-07-03T20:37:06.987896",
+      "category": "progressive_overload",
+      "decision": "Increase Weighted Crunch (decline) from 50.0 to 51.5 lbs (3% increase)",
+      "rationale": "Strong progression at 8.6%/week. Small 3% increase maintains momentum while managing risk.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "progression",
+          "detail": "Progression rate: 8.6%/week over 9 days",
+          "source": "Sessions 2026-06-22 \u2192 2026-07-01"
+        },
+        {
+          "type": "momentum",
+          "detail": "Progression rate exceeds 2%/week threshold \u2014 safe to increase"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Maintain 50.0 and add one set",
+          "why_rejected": "Progression is strong enough to support weight increase"
+        }
+      ],
+      "expected_benefit": "Continue linear progression trajectory",
+      "risks": [
+        "Accumulated fatigue may slow progression in subsequent weeks"
+      ],
+      "follow_up_metric": "Weighted Crunch (decline) weight after 1 session",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_9cf7af",
+      "created_at": "2026-07-03T20:37:06.989078",
+      "category": "progressive_overload",
+      "decision": "Maintain 0 bodyweight \u2014 add volume via extra set or rep",
+      "rationale": "Stable performance at 0 bodyweight. Adding volume (reps or sets) before increasing weight builds a stronger foundation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "progression",
+          "detail": "Progression rate: None%/week over 0 days",
+          "source": "Sessions None \u2192 None"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Increase weight by 3-5%",
+          "why_rejected": "Volume should be maximized before weight increase for hypertrophy focus"
+        }
+      ],
+      "expected_benefit": "Build volume base before next weight increase",
+      "risks": [
+        "Additional volume may increase session duration"
+      ],
+      "follow_up_metric": "Total sets for Leg Raises next session",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_e62d9b",
+      "created_at": "2026-07-03T20:49:00.346612",
+      "category": "recovery",
+      "decision": "Consider a deload week \u2014 you've been training consistently at high frequency.",
+      "rationale": "Consistency score 96% with 5 sessions/week. Deloading now (reduce volume 40-50% for one week) prevents accumulated fatigue.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "muscle_recovery",
+          "detail": "traps: recovering (0d since trained)"
+        },
+        {
+          "type": "muscle_recovery",
+          "detail": "biceps: recovering (2d since trained)"
+        },
+        {
+          "type": "muscle_recovery",
+          "detail": "abs: recovering (0d since trained)"
+        },
+        {
+          "type": "muscle_recovery",
+          "detail": "hamstrings: recovering (0d since trained)"
+        },
+        {
+          "type": "muscle_recovery",
+          "detail": "triceps: recovering (4d since trained)"
+        },
+        {
+          "type": "muscle_recovery",
+          "detail": "quads: recovering (0d since trained)"
+        },
+        {
+          "type": "muscle_recovery",
+          "detail": "back: recovering (2d since trained)"
+        },
+        {
+          "type": "muscle_recovery",
+          "detail": "shoulders: recovering (-5d since trained)"
+        },
+        {
+          "type": "muscle_recovery",
+          "detail": "forearms: recovering (2d since trained)"
+        },
+        {
+          "type": "muscle_recovery",
+          "detail": "chest: recovering (4d since trained)"
+        },
+        {
+          "type": "frequency",
+          "detail": "5 sessions in last 7 days (7 in 14d)"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Train at full intensity regardless",
+          "why_rejected": "Ignoring recovery signals risks overtraining and stalled progress"
+        },
+        {
+          "option": "Take a full week off",
+          "why_rejected": "Not indicated \u2014 recovery metrics don't show systemic overtraining"
+        }
+      ],
+      "expected_benefit": "Optimize training adaptation by matching intensity to recovery state",
+      "risks": [
+        "May undertrain if recovery estimation is conservative"
+      ],
+      "follow_up_metric": "Per-muscle recovery state after next training cycle",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_e27647",
+      "created_at": "2026-07-03T20:49:01.971431",
+      "category": "weekly",
+      "decision": "Maintain current trajectory. Focus on technique and consistent RPE.",
+      "rationale": "Recovery, frequency, and volume are balanced. No strong signal to push or pull back.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "recovery",
+          "detail": "Fatigued: 0 groups. Fully recovered: 0 groups."
+        },
+        {
+          "type": "frequency",
+          "detail": "5 sessions in last 7 days"
+        },
+        {
+          "type": "volume_trend",
+          "detail": "Volume increasing (43%)"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Push harder regardless of recovery",
+          "why_rejected": "Risking overtraining for marginal gains"
+        },
+        {
+          "option": "Deload completely",
+          "why_rejected": "Not indicated by current recovery metrics"
+        }
+      ],
+      "expected_benefit": "Align training stimulus with recovery capacity for optimal adaptation",
+      "risks": [
+        "Weekly strategies are directional \u2014 adjust per-session based on feel",
+        "Recovery estimation is imperfect without sleep/HRV data"
+      ],
+      "follow_up_metric": "Session quality scores and recovery states next week",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_f6320f",
+      "created_at": "2026-07-03T20:49:08.420250",
+      "category": "exercise",
+      "decision": "Consider moving Front Raise earlier in the workout to assess true strength",
+      "rationale": "Plateau at 40.0 lbs across 3 sessions. If this exercise is performed late in the workout, systemic fatigue may be masking true progression. Moving it earlier for 2-3 sessions will reveal whether the plateau is real or fatigue-driven.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "plateau",
+          "detail": "Stalled at 40.0 lbs",
+          "source": "['2026-07-08', '2026-07-03', '2026-06-26']"
+        },
+        {
+          "type": "progression",
+          "detail": "0.0%/week"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Replace Front Raise with alternative exercise",
+          "why_rejected": "Try reordering first \u2014 substitution should be second resort"
+        }
+      ],
+      "expected_benefit": "Determine true strength level, potentially reveal hidden progression",
+      "risks": [
+        "Earlier exercise may suffer if this was a warmup"
+      ],
+      "follow_up_metric": "Front Raise weight at earlier position after 2 sessions",
+      "target_exercise": "Front Raise",
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    },
+    {
+      "id": "dec_20260703_a47911",
+      "created_at": "2026-07-03T21:07:27.678076",
+      "category": "weekly",
+      "decision": "Maintain current trajectory. Focus on technique and consistent RPE.",
+      "rationale": "Recovery, frequency, and volume are balanced. No strong signal to push or pull back.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "recovery",
+          "detail": "Fatigued: 0 groups. Fully recovered: 0 groups."
+        },
+        {
+          "type": "frequency",
+          "detail": "4 sessions in last 7 days"
+        },
+        {
+          "type": "volume_trend",
+          "detail": "Volume stable (-1%)"
+        }
+      ],
+      "alternatives": [
+        {
+          "option": "Push harder regardless of recovery",
+          "why_rejected": "Risking overtraining for marginal gains"
+        },
+        {
+          "option": "Deload completely",
+          "why_rejected": "Not indicated by current recovery metrics"
+        }
+      ],
+      "expected_benefit": "Align training stimulus with recovery capacity for optimal adaptation",
+      "risks": [
+        "Weekly strategies are directional \u2014 adjust per-session based on feel",
+        "Recovery estimation is imperfect without sleep/HRV data"
+      ],
+      "follow_up_metric": "Session quality scores and recovery states next week",
+      "target_exercise": null,
+      "target_muscle_group": null,
+      "status": "pending",
+      "evaluated_at": null,
+      "was_followed": null,
+      "was_successful": null,
+      "outcome_notes": null
+    }
+  ],
+  "total": 18,
+  "pending": 17,
+  "evaluated": 1,
+  "success_rate": {
+    "overall": 100.0,
+    "by_category": {
+      "progressive_overload": {
+        "total": 1,
+        "successful": 1,
+        "rate_pct": 100.0
+      }
+    }
+  },
+  "exported_at": "2026-07-04"
+}

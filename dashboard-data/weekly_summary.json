@@ -1,0 +1,31 @@
+{
+  "weeks": [
+    {
+      "week": "2026-W26",
+      "sessions": 3,
+      "exercises": 40,
+      "total_sets": 111,
+      "total_reps": 976,
+      "volume_lbs": 72593.9
+    },
+    {
+      "week": "2026-W25",
+      "sessions": 3,
+      "exercises": 32,
+      "total_sets": 106,
+      "total_reps": 914,
+      "volume_lbs": 71633.8
+    }
+  ],
+  "nutrition": [
+    {
+      "week": "2026-W26",
+      "avg_calories": 33676.0,
+      "avg_protein": 1791.0,
+      "avg_carbs": 3090.0,
+      "avg_fat": 1543.0,
+      "days_tracked": 2
+    }
+  ],
+  "exported_at": "2026-07-04"
+}

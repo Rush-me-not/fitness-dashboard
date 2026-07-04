@@ -1,0 +1,67 @@
+{
+  "sessions": [
+    {
+      "id": 31,
+      "date": "2026-07-03",
+      "focus": "shoulders-legs",
+      "quality_score": 100.0,
+      "grade": "A",
+      "exercise_count": 14,
+      "total_sets": 37,
+      "status": "completed"
+    },
+    {
+      "id": 25,
+      "date": "2026-07-01",
+      "focus": "back-biceps",
+      "quality_score": 97.1,
+      "grade": "A",
+      "exercise_count": 17,
+      "total_sets": 42,
+      "status": "completed"
+    },
+    {
+      "id": 24,
+      "date": "2026-06-29",
+      "focus": "chest-triceps",
+      "quality_score": 96.2,
+      "grade": "A",
+      "exercise_count": 9,
+      "total_sets": 32,
+      "status": "completed"
+    },
+    {
+      "id": 22,
+      "date": "2026-06-26",
+      "focus": "shoulders-legs",
+      "quality_score": 98.9,
+      "grade": "A",
+      "exercise_count": 10,
+      "total_sets": 37,
+      "status": "completed"
+    },
+    {
+      "id": 23,
+      "date": "2026-06-24",
+      "focus": "back-biceps",
+      "quality_score": 100.0,
+      "grade": "A",
+      "exercise_count": 12,
+      "total_sets": 38,
+      "status": "completed"
+    },
+    {
+      "id": 20,
+      "date": "2026-06-22",
+      "focus": "chest-triceps",
+      "quality_score": 100.0,
+      "grade": "A",
+      "exercise_count": 10,
+      "total_sets": 31,
+      "status": "completed"
+    }
+  ],
+  "exported_at": "2026-07-04",
+  "avg_score": 98.7,
+  "total_sessions": 6
+}
