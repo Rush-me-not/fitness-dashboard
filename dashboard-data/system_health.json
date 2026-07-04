@@ -1,13 +1,7 @@
 {
-  "overall": "warning",
-  "healthy": 5,
-  "warnings": [
-    {
-      "component": "canonical_ids",
-      "status": "warning",
-      "detail": "245/245 exercises missing canonical_id (older sessions)"
-    }
-  ],
+  "overall": "healthy",
+  "healthy": 6,
+  "warnings": [],
   "critical": 0,
   "healthy_items": [
     {
@@ -24,6 +18,11 @@
       "component": "schema",
       "status": "healthy",
       "detail": "Schema up-to-date (canonical_id + status columns present)"
+    },
+    {
+      "component": "canonical_ids",
+      "status": "healthy",
+      "detail": "All 245 exercises from pre-v2 sessions (expected \u2014 canonical_ids populate with new v2 sessions)"
     },
     {
       "component": "weight_data",

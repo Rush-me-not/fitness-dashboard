@@ -12,6 +12,9 @@ const STATE = {
   decisionFilter: 'all',
 };
 
+// Expose DATA globally so charts.js can access it
+window.FD = DATA;
+
 // ── Init ──────────────────────────────────────────────────────────────
 
 async function init() {

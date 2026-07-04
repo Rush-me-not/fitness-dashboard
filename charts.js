@@ -7,7 +7,7 @@ function renderWeeklyVolumeChart(canvasId) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
 
-  const weeks = window.DATA?.weekly_summary?.weeks || [];
+  const weeks = window.FD?.weekly_summary?.weeks || [];
   if (!weeks.length) return;
 
   new Chart(canvas, {
@@ -39,7 +39,7 @@ function renderQualityTrendChart(canvasId) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
 
-  const reviews = window.DATA?.coaching_reviews?.sessions || [];
+  const reviews = window.FD?.coaching_reviews?.sessions || [];
   if (!reviews.length) return;
 
   const data = [...reviews].reverse();
