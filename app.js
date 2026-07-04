@@ -182,11 +182,19 @@ function renderHistory(container) {
             // Build per-set rep string (e.g., "8-8-7" or "3×8")
             const repList = (ex.sets || []).map(s => s.reps).join('-');
             const repDisplay = repList || `${ex.total_sets}×${Math.round(ex.total_reps/ex.total_sets)}`;
-            // Per-set weight string
-            const weights = [...new Set((ex.sets || []).map(s => s.weight_lbs || s.weight_kg || 0).filter(w => w>0))];
-            const wtDisplay = weights.length === 1 ? weights[0] + ' lbs' : 
-                             weights.length > 1 ? weights.join('/') + ' lbs' : 
-                             ex.max_weight_lbs > 0 ? fmt(ex.max_weight_lbs) + ' lbs' : 'BW';
+            // Per-set weight string with correct unit
+            const hasKg = (ex.sets || []).some(s => s.weight_kg && !s.weight_lbs);
+            const hasLbs = (ex.sets || []).some(s => s.weight_lbs);
+            let wtDisplay;
+            if (hasKg && !hasLbs) {
+              const weights = [...new Set((ex.sets || []).map(s => s.weight_kg).filter(w => w>0))];
+              wtDisplay = weights.length === 1 ? weights[0] + ' kg' : 
+                         weights.length > 1 ? weights.join('/') + ' kg' : 'BW';
+            } else {
+              const weights = [...new Set((ex.sets || []).map(s => s.weight_lbs || (s.weight_kg ? s.weight_kg * 2.20462 : 0)).filter(w => w>0))];
+              wtDisplay = weights.length === 1 ? Math.round(weights[0]) + ' lbs' : 
+                         weights.length > 1 ? weights.map(w => Math.round(w)).join('/') + ' lbs' : 'BW';
+            }
             return `
           <div class="exercise-row">
             <span class="ex-name">${ex.name}</span>
